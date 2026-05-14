@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LMAC: LLM-Guided Communication for Cooperative Multi-Agent Reinforcement Learning</title>
+  <meta name="description" content="LMAC leverages an LLM's reasoning capability to design communication protocols that enable cooperative MARL agents to reconstruct the global state accurately and uniformly." />
+  <meta property="og:title" content="LMAC: LLM-Guided Communication for Cooperative Multi-Agent Reinforcement Learning" />
+  <meta property="og:description" content="ICML 2026 — An LLM-driven communication framework that designs and iteratively refines code-based protocols for partially observable MARL." />
+  <meta property="og:image" content="static/images/concept.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="static/css/style.css" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <span class="venue-tag">ICML 2026</span>
+      <h1 class="title">
+        <span class="acronym">LMAC</span>: LLM-Guided Communication for<br />
+        Cooperative Multi-Agent Reinforcement Learning
+      </h1>
+
+      <div class="authors">
+        <span class="author">Sangjun Bae<sup>&dagger;</sup></span>
+        <span class="author">Yisak Park</span>
+        <span class="author">Sanghyeon Lee</span>
+        <span class="author">Seungyul Han<sup>*</sup></span>
+      </div>
+      <div class="affiliation">
+        Graduate School of Artificial Intelligence, UNIST, Ulsan, South Korea<br />
+        <span class="corresponding"><sup>&dagger;</sup>First author: <a href="mailto:bsjuntiger@unist.ac.kr">bsjuntiger@unist.ac.kr</a>
+        &nbsp;&middot;&nbsp;
+        <sup>*</sup>Corresponding author: <a href="mailto:syhan@unist.ac.kr">syhan@unist.ac.kr</a></span>
+      </div>
+
+      <div class="button-row">
+        <!-- TODO: replace href with the arXiv link once available, e.g. https://arxiv.org/abs/XXXX.XXXXX -->
+        <a class="btn" href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2.5L17.5 8H14V4.5zM8 13h8v2H8v-2zm0 4h8v2H8v-2zm0-8h4v2H8V9z"/></svg>
+          Paper
+        </a>
+        <a class="btn outline" href="https://github.com/SaaangJun/LMAC" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.69-3.87-1.36-3.87-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.71 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.84 1.19 3.1 0 4.44-2.7 5.42-5.27 5.7.41.36.78 1.06.78 2.13v3.16c0 .31.21.67.8.56C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+          Code
+        </a>
+        <a class="btn outline" href="#bibtex">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 4h14v2H5V4zm0 4h14v2H5V8zm0 4h14v2H5v-2zm0 4h9v2H5v-2z"/></svg>
+          Cite
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABSTRACT -->
+  <section class="abstract" id="abstract">
+    <div class="container">
+      <h2>Abstract</h2>
+      <p>
+        Communication is a key component in multi-agent reinforcement learning (MARL) for mitigating partial observability,
+        yet prior approaches often rely on inefficient information exchange or fail to transmit sufficient state information.
+        To address this, we propose <strong>LLM-driven Multi-Agent Communication (LMAC)</strong>, which leverages an LLM's
+        reasoning capability to design a communication protocol that enables all agents to reconstruct the underlying state
+        as accurately and uniformly as possible. LMAC iteratively refines the protocol using an explicit state-awareness
+        criterion, improving state recovery while narrowing differences in agents' knowledge.
+        Experiments on diverse MARL benchmarks show that LMAC improves state reconstruction across agents and yields
+        substantial performance gains over prior communication baselines.
+      </p>
+    </div>
+  </section>
+
+  <!-- TLDR / OVERVIEW -->
+  <section id="overview">
+    <div class="container">
+      <h2>Overview</h2>
+      <p>
+        LMAC asks a large language model to <em>design and refine</em> an executable, agent-wise communication
+        protocol from natural-language descriptions of the task, the global state, and each agent's observations.
+        Refinement is driven by a state-awareness criterion that turns offline transition data into language feedback,
+        so the LLM adds only the messages required for accurate and balanced state recovery.
+      </p>
+
+      <figure>
+        <img src="static/images/concept.png" alt="LMAC concept: protocol refinement steps" />
+        <figcaption>
+          <strong>Protocol refinement in LMAC.</strong> Given natural-language descriptions of the task goal and
+          the state and observation dimensions, the LLM designs an initial communication protocol to support
+          accurate state reconstruction. The protocol is then refined via criterion-based two-step feedback:
+          <strong>Step 1</strong> improves each agent's state reconstruction accuracy, and
+          <strong>Step 2</strong> reduces information gaps across agents.
+        </figcaption>
+      </figure>
+
+      <div class="highlight-box">
+        <p><strong>Key Contributions.</strong></p>
+        <ul>
+          <li>An LLM-driven framework that <strong>designs code-based communication protocols</strong> from task instructions, without online LLM interaction at execution time.</li>
+          <li>A <strong>State-Awareness Indicator (SAI)</strong> that converts offline transition data into criterion-based language feedback for iterative protocol refinement.</li>
+          <li>A two-step refinement objective (<strong>recovery enhancement</strong> and <strong>imbalance mitigation</strong>) that explicitly improves both accuracy and uniformity of state recovery across agents.</li>
+          <li>Consistent gains over communication baselines on <strong>SMAC-Comm, LBF, GRF</strong>, and <strong>SMACv2</strong>, often matching or surpassing the QMIX+State.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- MOTIVATION -->
+  <section id="motivation">
+    <div class="container">
+      <h2>Why a New Protocol?</h2>
+      <p>
+        Existing communication methods can still leave inefficiencies in recovering state information.
+        On a StarCraft II task where allies must infer an enemy position, even strong baselines like
+        MASIA and FullComm remain inaccurate or produce <strong>non-uniform reconstruction</strong> across agents.
+      </p>
+
+      <figure>
+        <img src="static/images/motivation.png" alt="Motivation: state reconstruction across baselines" />
+        <figcaption>
+          Comparison on StarCraft II after 2M timesteps.
+          <strong>(a)</strong> Average reconstruction error of the enemy position.
+          <strong>(b)</strong> Inter-agent variance of the reconstruction error.
+          <strong>(c)</strong> Ground-truth positions of allies (green/yellow) and the enemy (red), and each ally's estimated enemy position.
+          Prior methods either fail to recover the enemy position or do so inconsistently across agents. LMAC achieves both
+          low error <em>and</em> low inter-agent variance.
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- METHOD -->
+  <section id="method">
+    <div class="container">
+      <h2>Method</h2>
+      <p>
+        LMAC builds on Reflexion-style iterative refinement, replacing the fixed feedback with
+        <strong>step-wise feedback instructions</strong> tied to two explicit objectives. The output is an
+        executable Python protocol that maps each agent's observation history to agent-specific messages.
+      </p>
+
+      <figure>
+        <img src="static/images/framework.png" alt="LMAC iterative protocol refinement framework" />
+        <figcaption>
+          <strong>Iterative refinement framework.</strong>
+          (a) Input prompt <em>x</em> combines the task description and protocol design instruction.
+          (b) The LLM generates an executable protocol that maps local observations to agent-specific messages.
+          (c) Criterion-based feedback, consisting of an analysis instruction and a feedback generation instruction,
+          guides the next refinement step.
+        </figcaption>
+      </figure>
+
+      <h3>Three Refinement Steps</h3>
+      <div class="steps">
+        <div class="step">
+          <span class="step-tag">k = 0</span>
+          <h4>Protocol Initialization</h4>
+          <p>From the task prompt, the LLM generates an initial executable protocol that maps observations to a minimal but semantically meaningful message.</p>
+        </div>
+        <div class="step">
+          <span class="step-tag">k = 1</span>
+          <h4>Recovery Enhancement</h4>
+          <p>Using the agent-wise <em>recovery success rate</em>, the protocol is refined to add task-relevant information where state reconstruction is failing.</p>
+        </div>
+        <div class="step">
+          <span class="step-tag">k = 2</span>
+          <h4>Imbalance Mitigation</h4>
+          <p>Using the <em>inter-agent knowledge imbalance</em>, the protocol is refined so that state recovery becomes consistent across all agents.</p>
+        </div>
+      </div>
+
+      <h3>State-Awareness Indicator (SAI)</h3>
+      <p>
+        To turn quantitative reconstruction quality into language feedback, LMAC trains an auxiliary decoder
+        that reconstructs the global state from each agent's trajectory, with and without the message.
+        Per-dimension accuracy is thresholded into a binary indicator and aggregated into the two criteria above.
+      </p>
+
+      <figure>
+        <img src="static/images/iteration_sai.png" alt="Iteration-wise SAI evaluation" />
+        <figcaption>
+          Iteration-wise evaluation: <strong>(a)</strong> recovery success rate increases steadily,
+          while <strong>(b)</strong> inter-agent knowledge imbalance decreases, indicating both more accurate
+          <em>and</em> more uniform state awareness across agents.
+        </figcaption>
+      </figure>
+
+      <h3>Meta-Cognitive Representation for MARL Training</h3>
+      <p>
+        The pre-designed protocol is applied during MARL training to produce agent-specific messages.
+        Rather than feeding raw messages to agents, LMAC introduces an encoder&ndash;decoder pair that produces a
+        latent representation used for state inference and decision-making. The encoder is supervised by both
+        state reconstruction and the SAI signal, and a <strong>cycle-consistency loss</strong> discourages redundant content,
+        encouraging compact, task-relevant features.
+      </p>
+
+      <figure>
+        <img src="static/images/structure.png" alt="Overall LMAC framework" />
+        <figcaption><strong>Overall framework.</strong> The LLM-designed protocol is integrated into CTDE training via a meta-cognitive latent module.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- EXPERIMENTS -->
+  <section id="experiments">
+    <div class="container">
+      <h2>Experiments</h2>
+      <p>
+        We evaluate LMAC on four benchmarks: <strong>SMAC-Comm</strong> (<code>bane_vs_hM</code>, <code>1o_10b_vs_1r</code>,
+        <code>5z_vs_1ul</code>, <code>2o_20b_vs_2r</code>), <strong>LBF</strong>, <strong>GRF</strong>, and the more stochastic
+        <strong>SMACv2</strong>. Baselines include FullComm, MASIA, TarMAC, SMS, T2MAC, NDQ, MAIC, COLA, and the QMIX+State upper-bound.
+        Unless otherwise specified, the backbone LLM is <code>gpt-4.1-2025-04-14</code>. All results are averaged over 5 seeds.
+      </p>
+
+      <figure class="figure-medium">
+        <img src="static/images/env.png" alt="Benchmark environments" />
+        <figcaption>MARL benchmarks used in our experiments: <strong>(a)</strong> SMAC-Comm, <strong>(b)</strong> LBF, and <strong>(c)</strong> GRF.</figcaption>
+      </figure>
+
+      <h3>Performance Comparison</h3>
+      <figure>
+        <img src="static/images/performance.png" alt="Performance comparison across benchmarks" />
+        <figcaption>Success rates across SMAC-Comm, LBF, and GRF benchmarks.</figcaption>
+      </figure>
+      <p>
+        On <strong>SMAC-Comm</strong>, LMAC converges faster and achieves higher final success rates across all four scenarios,
+        with particularly large gains on <code>bane_vs_hM</code> and the large-scale <code>2o_20b_vs_2r</code>, indicating strong
+        scalability when state recovery is difficult or the number of agents increases. The results nearly match the upper-bound
+        QMIX+State, suggesting the designed protocols capture critical state information.
+        On <strong>LBF</strong>, LMAC again learns faster and approaches QMIX+State, supporting that refined communication enables
+        sufficient state reconstruction for coordinated behavior. On <strong>GRF</strong>, LMAC even <em>outperforms</em> QMIX+State:
+        because GRF has high-dimensional observations, the latent module compresses messages into compact task-relevant features
+        rather than feeding the full raw state, enabling faster convergence.
+      </p>
+
+      <h3>SMACv2: Test Win Rate (%) at 3M Steps</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Algorithm</th>
+              <th>terran_5_vs_5</th>
+              <th>protoss_5_vs_5</th>
+              <th>zerg_5_vs_5</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>QMIX</td><td>61.69 ± 5.4</td><td>48.44 ± 4.3</td><td>34.79 ± 4.7</td></tr>
+            <tr><td>FullComm</td><td>18.44 ± 1.7</td><td>16.93 ± 3.1</td><td>6.83 ± 1.8</td></tr>
+            <tr><td>TarMAC</td><td>29.68 ± 2.2</td><td>22.56 ± 2.1</td><td>15.47 ± 2.2</td></tr>
+            <tr><td>NDQ</td><td>59.20 ± 5.2</td><td>48.03 ± 4.2</td><td>38.75 ± 2.9</td></tr>
+            <tr><td>MAIC</td><td>63.80 ± 3.4</td><td>51.93 ± 2.4</td><td>38.59 ± 2.8</td></tr>
+            <tr><td>MASIA</td><td>54.72 ± 7.0</td><td>32.43 ± 3.7</td><td>34.22 ± 2.6</td></tr>
+            <tr><td>SMS</td><td>34.00 ± 3.2</td><td>27.00 ± 5.8</td><td>13.53 ± 3.6</td></tr>
+            <tr><td>COLA</td><td>10.29 ± 9.5</td><td>0.01 ± 0.0</td><td>0.19 ± 0.3</td></tr>
+            <tr><td>T2MAC</td><td>61.67 ± 2.5</td><td>48.16 ± 5.6</td><td>35.09 ± 3.4</td></tr>
+            <tr class="upper-bound"><td>QMIX+State</td><td>64.77 ± 2.79</td><td>56.40 ± 2.33</td><td>40.06 ± 3.39</td></tr>
+            <tr class="ours"><td>LMAC (Ours)</td><td>67.87 ± 2.77</td><td>57.96 ± 4.02</td><td>42.18 ± 4.37</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        SMACv2 randomizes unit types, positions, and team compositions across episodes, introducing severe distribution shifts.
+        Under this challenging setting, LMAC consistently outperforms all communication baselines and even surpasses QMIX+State,
+        suggesting that the LLM-designed protocol filters task-relevant features more effectively than directly utilizing the raw global state.
+      </p>
+
+      <h3>Trajectory Analysis</h3>
+      <p>
+        We perform a trajectory-level analysis on SMAC <code>1o_10b_vs_1r</code> to inspect how the protocol evolves
+        across refinement steps. 10 Banelings must converge on a Roach with positional cues from the Overseer.
+        At <strong>k=0</strong> the Overseer broadcasts the Roach's relative offset <em>(&Delta;x, &Delta;y)</em>, which enables
+        partial localization but remains insufficient without the Overseer's own position. At <strong>k=1</strong>, feedback identifies
+        this gap and adds the Overseer's relative position and recent history as localization cues. At <strong>k=2</strong>,
+        variance-based feedback reveals that some Banelings cannot disambiguate which teammates they observe, so the protocol
+        introduces a fixed anchor coordinate centered on the Overseer and explicit IDs for observed agents.
+      </p>
+
+      <figure>
+        <img src="static/images/trajectory_analysis.png" alt="Trajectory-level protocol refinement on 1o_10b_vs_1r" />
+        <figcaption>
+          <strong>Protocol refinement analysis on SMAC-Comm <code>1o_10b_vs_1r</code>.</strong>
+          (a) Task scenario with Overseer, Roach, and Banelings under partial observability;
+          (b) protocol messages and corresponding feedback at each step <em>k</em>;
+          (c) trajectory-level recovery success rate and inter-agent knowledge imbalance with (<em>k</em> = 0, 1, 2) or without messages (No-comm);
+          (d) average win rates across steps. The recovery success rate increases at step 1, the inter-agent imbalance
+          decreases at step 2, and learning performance improves correspondingly.
+        </figcaption>
+      </figure>
+
+      <h3>Ablation Study (SMAC-Comm)</h3>
+      <div class="ablation-row">
+        <div class="ablation-col">
+          <h4>(a) Component Evaluation</h4>
+          <table>
+            <thead><tr><th>Setting</th><th>Win Rate (%)</th></tr></thead>
+            <tbody>
+              <tr><td>w/o Cons</td><td>66.5 ± 2.1</td></tr>
+              <tr><td>w/o SAI</td><td>76.6 ± 5.6</td></tr>
+              <tr><td>k = 0</td><td>68.5 ± 3.8</td></tr>
+              <tr><td>k = 1</td><td>77.8 ± 2.2</td></tr>
+              <tr class="ours"><td>k = 2 (Ours)</td><td>82.9 ± 1.9</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="ablation-col">
+          <h4>(b) LLM Variants</h4>
+          <table>
+            <thead><tr><th>LLM</th><th>Win Rate (%)</th></tr></thead>
+            <tbody>
+              <tr class="ours"><td>GPT-4.1</td><td>82.9 ± 1.9</td></tr>
+              <tr><td>GPT-4.1-mini</td><td>79.8 ± 1.5</td></tr>
+              <tr><td>GPT-o1-mini</td><td>81.8 ± 2.9</td></tr>
+              <tr><td>Claude-Opus</td><td>81.9 ± 2.6</td></tr>
+              <tr><td>Gemini-2.5-Flash</td><td>80.8 ± 1.6</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="ablation-col">
+          <h4>(c) Threshold &alpha;</h4>
+          <table>
+            <thead><tr><th>&alpha;</th><th>Win Rate (%)</th></tr></thead>
+            <tbody>
+              <tr><td>0.0005</td><td>77.2 ± 2.1</td></tr>
+              <tr><td>0.002</td><td>79.3 ± 2.8</td></tr>
+              <tr><td>0.005</td><td>80.5 ± 1.7</td></tr>
+              <tr class="ours"><td>0.05 (Ours)</td><td>82.9 ± 1.9</td></tr>
+              <tr><td>0.5</td><td>80.2 ± 3.2</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p>
+        <strong>(a)</strong> Performance improves steadily as the refinement step progresses; removing the consistency loss
+        (w/o Cons) clearly hurts, showing that eliminating redundant information in messages is crucial, and removing SAI
+        also degrades performance, confirming that knowing the recovered state <em>and</em> its reliability is essential.
+        <strong>(b)</strong> All recent LLMs achieve strong performance with GPT-4.1 the highest; smaller and more efficient
+        models (GPT-4.1-mini, o1-mini) still perform competitively, demonstrating that the multi-step refinement process,
+        not a specific model, is the key driver.
+        <strong>(c)</strong> Performance peaks at &alpha; = 0.05 and remains stable for larger values, indicating the method
+        is not highly sensitive to this hyperparameter.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONCLUSION -->
+  <section id="conclusion">
+    <div class="container">
+      <h2>Conclusion</h2>
+      <p>
+        We propose <strong>LMAC</strong>, an LLM-driven communication framework for cooperative MARL that promotes unified
+        state awareness under partial observability. LMAC iteratively refines an executable, agent-wise protocol via
+        multi-step feedback, explicitly improving task-relevant state recovery while reducing inter-agent knowledge imbalance.
+        The resulting protocol is integrated into CTDE learning through a meta-cognitive latent module that supports state
+        reconstruction and reliability calibration, with a cycle-consistency constraint encouraging compact and reconstructable
+        representations. Across multiple benchmarks, LMAC consistently improves both coordination and team performance over
+        prior communication methods.
+      </p>
+    </div>
+  </section>
+
+  <!-- BIBTEX -->
+  <section id="bibtex">
+    <div class="container">
+      <h2>Cite</h2>
+      <div class="bibtex">
+        <button class="copy-btn" onclick="copyBibtex()">Copy</button>
+<pre id="bibtex-block"><code>@inproceedings{bae2026lmac,
+  title     = {LLM-Guided Communication for Cooperative Multi-Agent Reinforcement Learning},
+  author    = {Sangjun Bae and Yisak Park and Sanghyeon Lee and Seungyul Han},
+  booktitle = {Proceedings of the 43rd International Conference on Machine Learning (ICML)},
+  year      = {2026}
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>
+        &copy; 2026 Sangjun Bae, Yisak Park, Sanghyeon Lee, Seungyul Han &middot;
+        Graduate School of AI, UNIST &middot;
+        <a href="https://github.com/SaaangJun/LMAC" target="_blank" rel="noopener">GitHub</a>
+      </p>
+      <p style="font-size:13px;">
+        Template inspired by academic project pages. Built for the ICML 2026 LMAC release.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    function copyBibtex() {
+      const text = document.getElementById('bibtex-block').innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.querySelector('.bibtex .copy-btn');
+        const original = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => { btn.textContent = original; }, 1500);
+      });
+    }
+  </script>
+</body>
+</html>
