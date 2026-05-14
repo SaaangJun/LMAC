@@ -1,0 +1,2440 @@
+{
+  "dimensions": [
+    {
+      "dim": "s[0] - Agent 0 health",
+      "with_communication": {
+        "early": [
+          0.995,
+          0.997,
+          0.999,
+          1.0,
+          0.998
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.991
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          0.996,
+          0.996,
+          0.996
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.997,
+          0.98,
+          0.996,
+          0.961,
+          0.971
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.988,
+          0.937,
+          0.911,
+          0.901,
+          0.897
+        ],
+        "variance_in_early-mid": 0.0011,
+        "mid": [
+          0.988,
+          0.92,
+          0.891,
+          0.993,
+          0.949
+        ],
+        "variance_in_mid": 0.0015,
+        "mid-late": [
+          1.0,
+          0.917,
+          0.726,
+          0.855,
+          0.815
+        ],
+        "variance_in_mid-late": 0.0086,
+        "late": [
+          0.996,
+          0.882,
+          0.589,
+          0.659,
+          0.674
+        ],
+        "variance_in_late": 0.0235
+      }
+    },
+    {
+      "dim": "s[1] - Agent 0 weapon_cooldown",
+      "with_communication": {
+        "early": [
+          0.894,
+          0.906,
+          0.906,
+          0.901,
+          0.9
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.903,
+          0.89,
+          0.905,
+          0.883,
+          0.885
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.884,
+          0.902,
+          0.895,
+          0.886,
+          0.89
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.888,
+          0.881,
+          0.892,
+          0.88,
+          0.885
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.902,
+          0.907,
+          0.907,
+          0.911,
+          0.905
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.898,
+          0.893,
+          0.896,
+          0.894,
+          0.892
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.909,
+          0.905,
+          0.91,
+          0.886,
+          0.899
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.884,
+          0.904,
+          0.875,
+          0.872,
+          0.893
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.876,
+          0.869,
+          0.864,
+          0.858,
+          0.849
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.893,
+          0.895,
+          0.843,
+          0.852,
+          0.849
+        ],
+        "variance_in_late": 0.0005
+      }
+    },
+    {
+      "dim": "s[2] - Agent 0 absolute X coordination",
+      "with_communication": {
+        "early": [
+          0.662,
+          0.637,
+          0.59,
+          0.7,
+          0.736
+        ],
+        "variance_in_early": 0.0025,
+        "early-mid": [
+          0.692,
+          0.688,
+          0.682,
+          0.734,
+          0.781
+        ],
+        "variance_in_early-mid": 0.0014,
+        "mid": [
+          0.761,
+          0.738,
+          0.706,
+          0.725,
+          0.736
+        ],
+        "variance_in_mid": 0.0003,
+        "mid-late": [
+          0.796,
+          0.796,
+          0.734,
+          0.808,
+          0.778
+        ],
+        "variance_in_mid-late": 0.0007,
+        "late": [
+          0.884,
+          0.883,
+          0.834,
+          0.848,
+          0.832
+        ],
+        "variance_in_late": 0.0005
+      },
+      "without_communication": {
+        "early": [
+          0.589,
+          0.544,
+          0.572,
+          0.589,
+          0.593
+        ],
+        "variance_in_early": 0.0003,
+        "early-mid": [
+          0.704,
+          0.663,
+          0.568,
+          0.547,
+          0.53
+        ],
+        "variance_in_early-mid": 0.0047,
+        "mid": [
+          0.688,
+          0.666,
+          0.641,
+          0.672,
+          0.604
+        ],
+        "variance_in_mid": 0.0009,
+        "mid-late": [
+          0.799,
+          0.796,
+          0.682,
+          0.704,
+          0.678
+        ],
+        "variance_in_mid-late": 0.003,
+        "late": [
+          0.89,
+          0.825,
+          0.722,
+          0.754,
+          0.785
+        ],
+        "variance_in_late": 0.0034
+      }
+    },
+    {
+      "dim": "s[3] - Agent 0 absolute Y coordination",
+      "with_communication": {
+        "early": [
+          0.744,
+          0.757,
+          0.759,
+          0.759,
+          0.763
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.75,
+          0.751,
+          0.76,
+          0.775,
+          0.778
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.858,
+          0.852,
+          0.858,
+          0.858,
+          0.859
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.902,
+          0.907,
+          0.908,
+          0.908,
+          0.903
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.969,
+          0.968,
+          0.969,
+          0.969,
+          0.969
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.794,
+          0.801,
+          0.789,
+          0.783,
+          0.788
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.785,
+          0.791,
+          0.762,
+          0.776,
+          0.773
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.759,
+          0.74,
+          0.805,
+          0.828,
+          0.827
+        ],
+        "variance_in_mid": 0.0013,
+        "mid-late": [
+          0.863,
+          0.854,
+          0.86,
+          0.865,
+          0.87
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.906,
+          0.906,
+          0.918,
+          0.913,
+          0.916
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[4] - Agent 0 shield",
+      "with_communication": {
+        "early": [
+          0.99,
+          0.993,
+          0.993,
+          0.997,
+          0.993
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.996,
+          1.0,
+          1.0,
+          0.996,
+          0.996
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          0.997,
+          0.997,
+          0.997,
+          0.997
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.976,
+          0.995,
+          0.989,
+          0.969,
+          0.964
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.991,
+          0.98,
+          0.943,
+          0.919,
+          0.943
+        ],
+        "variance_in_early-mid": 0.0007,
+        "mid": [
+          1.0,
+          0.988,
+          0.944,
+          0.964,
+          0.963
+        ],
+        "variance_in_mid": 0.0004,
+        "mid-late": [
+          0.987,
+          0.959,
+          0.795,
+          0.847,
+          0.824
+        ],
+        "variance_in_mid-late": 0.0058,
+        "late": [
+          0.992,
+          0.96,
+          0.799,
+          0.843,
+          0.777
+        ],
+        "variance_in_late": 0.0075
+      }
+    },
+    {
+      "dim": "s[5] - Agent 1 health",
+      "with_communication": {
+        "early": [
+          0.983,
+          0.981,
+          0.99,
+          0.997,
+          1.0
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.99,
+          0.985,
+          0.98,
+          0.984,
+          0.98
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.996,
+          0.99,
+          0.989,
+          0.996,
+          0.996
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.98,
+          0.968,
+          0.975,
+          0.962,
+          0.977
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.996,
+          1.0,
+          1.0,
+          0.996,
+          0.992
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.981,
+          0.993,
+          0.978,
+          0.948,
+          0.965
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.983,
+          0.962,
+          0.864,
+          0.875,
+          0.888
+        ],
+        "variance_in_early-mid": 0.0024,
+        "mid": [
+          0.961,
+          0.995,
+          0.862,
+          0.881,
+          0.884
+        ],
+        "variance_in_mid": 0.0027,
+        "mid-late": [
+          0.966,
+          0.994,
+          0.733,
+          0.782,
+          0.745
+        ],
+        "variance_in_mid-late": 0.0127,
+        "late": [
+          0.971,
+          0.996,
+          0.572,
+          0.644,
+          0.57
+        ],
+        "variance_in_late": 0.0369
+      }
+    },
+    {
+      "dim": "s[6] - Agent 1 weapon_cooldown",
+      "with_communication": {
+        "early": [
+          0.929,
+          0.916,
+          0.922,
+          0.92,
+          0.93
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.906,
+          0.905,
+          0.92,
+          0.897,
+          0.905
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.922,
+          0.916,
+          0.924,
+          0.935,
+          0.934
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.892,
+          0.902,
+          0.894,
+          0.895,
+          0.909
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.951,
+          0.947,
+          0.958,
+          0.958,
+          0.958
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.899,
+          0.887,
+          0.883,
+          0.874,
+          0.867
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.895,
+          0.901,
+          0.896,
+          0.886,
+          0.881
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.904,
+          0.901,
+          0.893,
+          0.912,
+          0.915
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.867,
+          0.882,
+          0.837,
+          0.85,
+          0.842
+        ],
+        "variance_in_mid-late": 0.0003,
+        "late": [
+          0.954,
+          0.95,
+          0.913,
+          0.932,
+          0.919
+        ],
+        "variance_in_late": 0.0003
+      }
+    },
+    {
+      "dim": "s[7] - Agent 1 absolute X coordination",
+      "with_communication": {
+        "early": [
+          0.733,
+          0.708,
+          0.695,
+          0.713,
+          0.755
+        ],
+        "variance_in_early": 0.0004,
+        "early-mid": [
+          0.74,
+          0.748,
+          0.748,
+          0.735,
+          0.791
+        ],
+        "variance_in_early-mid": 0.0004,
+        "mid": [
+          0.799,
+          0.793,
+          0.785,
+          0.791,
+          0.809
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.844,
+          0.849,
+          0.818,
+          0.815,
+          0.821
+        ],
+        "variance_in_mid-late": 0.0002,
+        "late": [
+          0.942,
+          0.942,
+          0.95,
+          0.95,
+          0.95
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.562,
+          0.553,
+          0.5,
+          0.529,
+          0.536
+        ],
+        "variance_in_early": 0.0005,
+        "early-mid": [
+          0.609,
+          0.673,
+          0.623,
+          0.604,
+          0.6
+        ],
+        "variance_in_early-mid": 0.0007,
+        "mid": [
+          0.762,
+          0.76,
+          0.623,
+          0.61,
+          0.574
+        ],
+        "variance_in_mid": 0.0063,
+        "mid-late": [
+          0.839,
+          0.867,
+          0.653,
+          0.658,
+          0.641
+        ],
+        "variance_in_mid-late": 0.0099,
+        "late": [
+          0.903,
+          0.909,
+          0.844,
+          0.848,
+          0.826
+        ],
+        "variance_in_late": 0.0011
+      }
+    },
+    {
+      "dim": "s[8] - Agent 1 absolute Y coordination",
+      "with_communication": {
+        "early": [
+          0.817,
+          0.816,
+          0.821,
+          0.822,
+          0.825
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.899,
+          0.899,
+          0.906,
+          0.895,
+          0.895
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.979,
+          0.979,
+          0.976,
+          0.976,
+          0.976
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.996,
+          0.996,
+          0.996,
+          0.996,
+          0.996
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.997,
+          0.997,
+          0.997,
+          0.997,
+          0.997
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.793,
+          0.794,
+          0.788,
+          0.785,
+          0.788
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.858,
+          0.857,
+          0.848,
+          0.864,
+          0.869
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.903,
+          0.894,
+          0.916,
+          0.911,
+          0.908
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.926,
+          0.937,
+          0.941,
+          0.919,
+          0.925
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.941,
+          0.941,
+          0.945,
+          0.945,
+          0.945
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[9] - Agent 1 shield",
+      "with_communication": {
+        "early": [
+          1.0,
+          0.996,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          0.998,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          0.995,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.997,
+          0.99,
+          0.991,
+          0.991,
+          0.991
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.986,
+          0.996,
+          1.0,
+          0.962,
+          0.968
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.997,
+          0.996,
+          0.93,
+          0.918,
+          0.917
+        ],
+        "variance_in_early-mid": 0.0014,
+        "mid": [
+          0.984,
+          1.0,
+          0.964,
+          0.937,
+          0.934
+        ],
+        "variance_in_mid": 0.0007,
+        "mid-late": [
+          0.983,
+          0.992,
+          0.829,
+          0.787,
+          0.809
+        ],
+        "variance_in_mid-late": 0.0079,
+        "late": [
+          0.996,
+          1.0,
+          0.756,
+          0.784,
+          0.73
+        ],
+        "variance_in_late": 0.0143
+      }
+    },
+    {
+      "dim": "s[10] - Agent 2 health",
+      "with_communication": {
+        "early": [
+          0.999,
+          0.987,
+          0.986,
+          0.996,
+          0.991
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.984,
+          0.962,
+          0.975,
+          0.996,
+          0.984
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          1.0,
+          0.996,
+          1.0,
+          0.986,
+          0.986
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.899,
+          0.908,
+          0.991,
+          0.963,
+          0.956
+        ],
+        "variance_in_early": 0.0012,
+        "early-mid": [
+          0.841,
+          0.802,
+          0.977,
+          0.931,
+          0.898
+        ],
+        "variance_in_early-mid": 0.0039,
+        "mid": [
+          0.916,
+          0.927,
+          0.969,
+          0.906,
+          0.913
+        ],
+        "variance_in_mid": 0.0005,
+        "mid-late": [
+          0.951,
+          0.973,
+          1.0,
+          0.987,
+          0.982
+        ],
+        "variance_in_mid-late": 0.0003,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[11] - Agent 2 weapon_cooldown",
+      "with_communication": {
+        "early": [
+          0.839,
+          0.837,
+          0.816,
+          0.841,
+          0.83
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.856,
+          0.859,
+          0.833,
+          0.837,
+          0.847
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.935,
+          0.935,
+          0.931,
+          0.931,
+          0.935
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.775,
+          0.786,
+          0.818,
+          0.761,
+          0.79
+        ],
+        "variance_in_early": 0.0004,
+        "early-mid": [
+          0.844,
+          0.843,
+          0.856,
+          0.854,
+          0.846
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.937,
+          0.929,
+          0.937,
+          0.92,
+          0.929
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[12] - Agent 2 absolute X coordinate",
+      "with_communication": {
+        "early": [
+          0.734,
+          0.701,
+          0.736,
+          0.731,
+          0.793
+        ],
+        "variance_in_early": 0.0009,
+        "early-mid": [
+          0.784,
+          0.781,
+          0.795,
+          0.801,
+          0.809
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.937,
+          0.94,
+          0.915,
+          0.94,
+          0.911
+        ],
+        "variance_in_mid": 0.0002,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.786,
+          0.8,
+          0.782,
+          0.771,
+          0.81
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.814,
+          0.809,
+          0.837,
+          0.814,
+          0.767
+        ],
+        "variance_in_early-mid": 0.0005,
+        "mid": [
+          0.915,
+          0.917,
+          0.911,
+          0.909,
+          0.891
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[13] - Agent 2 absolute Y coordinate",
+      "with_communication": {
+        "early": [
+          0.893,
+          0.892,
+          0.885,
+          0.874,
+          0.878
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.923,
+          0.928,
+          0.928,
+          0.928,
+          0.928
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.984,
+          0.984,
+          0.984,
+          0.984,
+          0.984
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.951,
+          0.955,
+          0.953,
+          0.947,
+          0.952
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.965,
+          0.965,
+          0.965,
+          0.962,
+          0.959
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[14] - Agent 2 shield",
+      "with_communication": {
+        "early": [
+          1.0,
+          0.996,
+          1.0,
+          0.996,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          0.998,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.932,
+          0.948,
+          0.968,
+          0.916,
+          0.926
+        ],
+        "variance_in_early": 0.0003,
+        "early-mid": [
+          0.979,
+          0.957,
+          0.998,
+          0.98,
+          0.992
+        ],
+        "variance_in_early-mid": 0.0002,
+        "mid": [
+          1.0,
+          1.0,
+          1.0,
+          0.996,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[15] - Agent 3 health",
+      "with_communication": {
+        "early": [
+          1.0,
+          0.992,
+          0.999,
+          1.0,
+          0.991
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.991,
+          0.987,
+          1.0,
+          0.996,
+          0.984
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          0.996,
+          0.996,
+          0.984
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.985,
+          0.99,
+          1.0,
+          0.985,
+          0.975
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          1.0,
+          0.995,
+          0.995,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.889,
+          0.881,
+          0.991,
+          0.999,
+          0.993
+        ],
+        "variance_in_early": 0.0029,
+        "early-mid": [
+          0.812,
+          0.782,
+          0.925,
+          1.0,
+          0.954
+        ],
+        "variance_in_early-mid": 0.007,
+        "mid": [
+          0.973,
+          0.922,
+          0.919,
+          0.996,
+          0.988
+        ],
+        "variance_in_mid": 0.0011,
+        "mid-late": [
+          0.905,
+          0.802,
+          0.763,
+          0.98,
+          0.941
+        ],
+        "variance_in_mid-late": 0.0068,
+        "late": [
+          0.831,
+          0.831,
+          0.791,
+          0.992,
+          0.956
+        ],
+        "variance_in_late": 0.0062
+      }
+    },
+    {
+      "dim": "s[16] - Agent 3 Weapon_cooldown",
+      "with_communication": {
+        "early": [
+          0.896,
+          0.893,
+          0.883,
+          0.879,
+          0.891
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.904,
+          0.905,
+          0.905,
+          0.891,
+          0.89
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.889,
+          0.884,
+          0.888,
+          0.894,
+          0.884
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.939,
+          0.949,
+          0.944,
+          0.949,
+          0.933
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.928,
+          0.928,
+          0.928,
+          0.927,
+          0.928
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.849,
+          0.847,
+          0.871,
+          0.874,
+          0.88
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.852,
+          0.857,
+          0.877,
+          0.892,
+          0.883
+        ],
+        "variance_in_early-mid": 0.0002,
+        "mid": [
+          0.854,
+          0.859,
+          0.861,
+          0.877,
+          0.868
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.925,
+          0.915,
+          0.9,
+          0.918,
+          0.918
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.923,
+          0.919,
+          0.919,
+          0.924,
+          0.922
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[17] - Agent 3 absolute X coordinate",
+      "with_communication": {
+        "early": [
+          0.73,
+          0.709,
+          0.77,
+          0.813,
+          0.86
+        ],
+        "variance_in_early": 0.003,
+        "early-mid": [
+          0.724,
+          0.677,
+          0.747,
+          0.838,
+          0.818
+        ],
+        "variance_in_early-mid": 0.0036,
+        "mid": [
+          0.74,
+          0.713,
+          0.781,
+          0.891,
+          0.859
+        ],
+        "variance_in_mid": 0.0046,
+        "mid-late": [
+          0.799,
+          0.786,
+          0.793,
+          0.915,
+          0.896
+        ],
+        "variance_in_mid-late": 0.0031,
+        "late": [
+          0.835,
+          0.83,
+          0.837,
+          0.942,
+          0.935
+        ],
+        "variance_in_late": 0.0026
+      },
+      "without_communication": {
+        "early": [
+          0.721,
+          0.704,
+          0.735,
+          0.809,
+          0.796
+        ],
+        "variance_in_early": 0.0017,
+        "early-mid": [
+          0.705,
+          0.73,
+          0.773,
+          0.813,
+          0.779
+        ],
+        "variance_in_early-mid": 0.0015,
+        "mid": [
+          0.717,
+          0.683,
+          0.724,
+          0.773,
+          0.791
+        ],
+        "variance_in_mid": 0.0015,
+        "mid-late": [
+          0.799,
+          0.756,
+          0.762,
+          0.866,
+          0.855
+        ],
+        "variance_in_mid-late": 0.0021,
+        "late": [
+          0.856,
+          0.832,
+          0.862,
+          0.905,
+          0.855
+        ],
+        "variance_in_late": 0.0006
+      }
+    },
+    {
+      "dim": "s[18] - Agent 3 absolute Y coordinate",
+      "with_communication": {
+        "early": [
+          0.858,
+          0.857,
+          0.84,
+          0.844,
+          0.852
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.858,
+          0.853,
+          0.854,
+          0.844,
+          0.867
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.849,
+          0.853,
+          0.846,
+          0.853,
+          0.847
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.884,
+          0.889,
+          0.881,
+          0.906,
+          0.908
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.905,
+          0.911,
+          0.903,
+          0.924,
+          0.924
+        ],
+        "variance_in_late": 0.0001
+      },
+      "without_communication": {
+        "early": [
+          0.86,
+          0.863,
+          0.887,
+          0.89,
+          0.88
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.855,
+          0.848,
+          0.858,
+          0.929,
+          0.934
+        ],
+        "variance_in_early-mid": 0.0015,
+        "mid": [
+          0.87,
+          0.852,
+          0.863,
+          0.927,
+          0.919
+        ],
+        "variance_in_mid": 0.0009,
+        "mid-late": [
+          0.87,
+          0.846,
+          0.867,
+          0.958,
+          0.93
+        ],
+        "variance_in_mid-late": 0.0018,
+        "late": [
+          0.905,
+          0.871,
+          0.889,
+          0.964,
+          0.927
+        ],
+        "variance_in_late": 0.001
+      }
+    },
+    {
+      "dim": "s[19] - Agent 3 shield",
+      "with_communication": {
+        "early": [
+          1.0,
+          0.996,
+          1.0,
+          1.0,
+          0.997
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          0.995,
+          0.995,
+          1.0,
+          0.996
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          0.99,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.992,
+          0.988,
+          1.0,
+          0.988,
+          0.992
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.886,
+          0.857,
+          0.996,
+          0.976,
+          0.989
+        ],
+        "variance_in_early": 0.0033,
+        "early-mid": [
+          0.919,
+          0.898,
+          0.932,
+          0.944,
+          0.975
+        ],
+        "variance_in_early-mid": 0.0007,
+        "mid": [
+          0.963,
+          0.92,
+          0.901,
+          0.972,
+          0.99
+        ],
+        "variance_in_mid": 0.0011,
+        "mid-late": [
+          0.924,
+          0.914,
+          0.886,
+          0.964,
+          0.95
+        ],
+        "variance_in_mid-late": 0.0008,
+        "late": [
+          0.961,
+          0.969,
+          0.953,
+          0.983,
+          0.982
+        ],
+        "variance_in_late": 0.0001
+      }
+    },
+    {
+      "dim": "s[20] - Agent 4 health",
+      "with_communication": {
+        "early": [
+          1.0,
+          0.995,
+          1.0,
+          0.999,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.988,
+          0.992,
+          0.988,
+          0.996,
+          0.987
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.988,
+          1.0,
+          1.0,
+          0.994,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          0.995,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          0.995,
+          0.998
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.959,
+          0.956,
+          0.991,
+          0.992,
+          0.997
+        ],
+        "variance_in_early": 0.0003,
+        "early-mid": [
+          0.808,
+          0.797,
+          0.915,
+          0.962,
+          0.982
+        ],
+        "variance_in_early-mid": 0.0059,
+        "mid": [
+          0.975,
+          0.899,
+          0.857,
+          0.913,
+          0.969
+        ],
+        "variance_in_mid": 0.002,
+        "mid-late": [
+          0.925,
+          0.834,
+          0.758,
+          0.942,
+          0.966
+        ],
+        "variance_in_mid-late": 0.006,
+        "late": [
+          0.87,
+          0.807,
+          0.793,
+          0.984,
+          1.0
+        ],
+        "variance_in_late": 0.0075
+      }
+    },
+    {
+      "dim": "s[21] - Agent 4 Weapon_cooldown",
+      "with_communication": {
+        "early": [
+          0.903,
+          0.894,
+          0.881,
+          0.891,
+          0.884
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.872,
+          0.85,
+          0.874,
+          0.85,
+          0.862
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.882,
+          0.878,
+          0.874,
+          0.879,
+          0.872
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.929,
+          0.934,
+          0.935,
+          0.924,
+          0.924
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.958,
+          0.963,
+          0.963,
+          0.958,
+          0.958
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.836,
+          0.843,
+          0.834,
+          0.836,
+          0.846
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.865,
+          0.868,
+          0.854,
+          0.85,
+          0.853
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.91,
+          0.928,
+          0.901,
+          0.918,
+          0.908
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.919,
+          0.92,
+          0.938,
+          0.917,
+          0.927
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.937,
+          0.937,
+          0.926,
+          0.958,
+          0.951
+        ],
+        "variance_in_late": 0.0001
+      }
+    },
+    {
+      "dim": "s[22] - Agent 4 absolute X coordinate",
+      "with_communication": {
+        "early": [
+          0.662,
+          0.66,
+          0.723,
+          0.765,
+          0.802
+        ],
+        "variance_in_early": 0.0031,
+        "early-mid": [
+          0.684,
+          0.671,
+          0.671,
+          0.785,
+          0.804
+        ],
+        "variance_in_early-mid": 0.0035,
+        "mid": [
+          0.729,
+          0.725,
+          0.752,
+          0.854,
+          0.904
+        ],
+        "variance_in_mid": 0.0053,
+        "mid-late": [
+          0.777,
+          0.781,
+          0.78,
+          0.905,
+          0.936
+        ],
+        "variance_in_mid-late": 0.0049,
+        "late": [
+          0.868,
+          0.872,
+          0.869,
+          0.912,
+          0.941
+        ],
+        "variance_in_late": 0.0009
+      },
+      "without_communication": {
+        "early": [
+          0.73,
+          0.707,
+          0.753,
+          0.816,
+          0.798
+        ],
+        "variance_in_early": 0.0017,
+        "early-mid": [
+          0.729,
+          0.752,
+          0.747,
+          0.813,
+          0.794
+        ],
+        "variance_in_early-mid": 0.001,
+        "mid": [
+          0.786,
+          0.726,
+          0.822,
+          0.865,
+          0.818
+        ],
+        "variance_in_mid": 0.0021,
+        "mid-late": [
+          0.855,
+          0.834,
+          0.882,
+          0.902,
+          0.891
+        ],
+        "variance_in_mid-late": 0.0006,
+        "late": [
+          0.843,
+          0.843,
+          0.856,
+          0.912,
+          0.93
+        ],
+        "variance_in_late": 0.0014
+      }
+    },
+    {
+      "dim": "s[23] - Agent 4 absolute Y coordinate",
+      "with_communication": {
+        "early": [
+          0.808,
+          0.806,
+          0.798,
+          0.804,
+          0.802
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.817,
+          0.811,
+          0.788,
+          0.811,
+          0.808
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.831,
+          0.847,
+          0.824,
+          0.863,
+          0.862
+        ],
+        "variance_in_mid": 0.0003,
+        "mid-late": [
+          0.878,
+          0.882,
+          0.875,
+          0.906,
+          0.911
+        ],
+        "variance_in_mid-late": 0.0002,
+        "late": [
+          0.881,
+          0.889,
+          0.88,
+          0.906,
+          0.909
+        ],
+        "variance_in_late": 0.0002
+      },
+      "without_communication": {
+        "early": [
+          0.834,
+          0.835,
+          0.856,
+          0.854,
+          0.842
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.808,
+          0.8,
+          0.805,
+          0.809,
+          0.841
+        ],
+        "variance_in_early-mid": 0.0002,
+        "mid": [
+          0.818,
+          0.787,
+          0.816,
+          0.849,
+          0.869
+        ],
+        "variance_in_mid": 0.0008,
+        "mid-late": [
+          0.875,
+          0.847,
+          0.865,
+          0.92,
+          0.919
+        ],
+        "variance_in_mid-late": 0.0009,
+        "late": [
+          0.875,
+          0.875,
+          0.875,
+          0.935,
+          0.935
+        ],
+        "variance_in_late": 0.0009
+      }
+    },
+    {
+      "dim": "s[24] - Agent 5 shield",
+      "with_communication": {
+        "early": [
+          0.979,
+          0.992,
+          0.997,
+          0.998,
+          0.991
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.991,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.956,
+          0.957,
+          0.99,
+          0.996,
+          0.982
+        ],
+        "variance_in_early": 0.0003,
+        "early-mid": [
+          0.949,
+          0.927,
+          0.944,
+          0.991,
+          0.991
+        ],
+        "variance_in_early-mid": 0.0007,
+        "mid": [
+          0.992,
+          0.939,
+          0.961,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0006,
+        "mid-late": [
+          0.967,
+          0.895,
+          0.941,
+          0.993,
+          0.993
+        ],
+        "variance_in_mid-late": 0.0014,
+        "late": [
+          0.941,
+          0.918,
+          0.938,
+          0.999,
+          1.0
+        ],
+        "variance_in_late": 0.0011
+      }
+    },
+    {
+      "dim": "s[25] - Enemy(Ultralisk) health",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0,
+          0.996,
+          0.996
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          0.997,
+          0.997,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          0.984,
+          0.975,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.996,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          0.998,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[26] - Enemy(Ultralisk) absolute X coordinate",
+      "with_communication": {
+        "early": [
+          0.751,
+          0.746,
+          0.751,
+          0.718,
+          0.795
+        ],
+        "variance_in_early": 0.0006,
+        "early-mid": [
+          0.766,
+          0.768,
+          0.778,
+          0.804,
+          0.841
+        ],
+        "variance_in_early-mid": 0.0008,
+        "mid": [
+          0.798,
+          0.813,
+          0.803,
+          0.847,
+          0.866
+        ],
+        "variance_in_mid": 0.0007,
+        "mid-late": [
+          0.752,
+          0.779,
+          0.761,
+          0.796,
+          0.839
+        ],
+        "variance_in_mid-late": 0.0009,
+        "late": [
+          0.75,
+          0.763,
+          0.723,
+          0.777,
+          0.858
+        ],
+        "variance_in_late": 0.0021
+      },
+      "without_communication": {
+        "early": [
+          0.743,
+          0.675,
+          0.703,
+          0.742,
+          0.786
+        ],
+        "variance_in_early": 0.0014,
+        "early-mid": [
+          0.802,
+          0.773,
+          0.815,
+          0.816,
+          0.834
+        ],
+        "variance_in_early-mid": 0.0004,
+        "mid": [
+          0.789,
+          0.715,
+          0.812,
+          0.79,
+          0.821
+        ],
+        "variance_in_mid": 0.0014,
+        "mid-late": [
+          0.817,
+          0.772,
+          0.767,
+          0.805,
+          0.738
+        ],
+        "variance_in_mid-late": 0.0008,
+        "late": [
+          0.808,
+          0.752,
+          0.674,
+          0.694,
+          0.624
+        ],
+        "variance_in_late": 0.0041
+      }
+    },
+    {
+      "dim": "s[27] - Enemy(Ultralisk) absolute Y coordinate",
+      "with_communication": {
+        "early": [
+          0.901,
+          0.906,
+          0.916,
+          0.92,
+          0.955
+        ],
+        "variance_in_early": 0.0004,
+        "early-mid": [
+          0.904,
+          0.907,
+          0.904,
+          0.912,
+          0.951
+        ],
+        "variance_in_early-mid": 0.0003,
+        "mid": [
+          0.908,
+          0.917,
+          0.906,
+          0.902,
+          0.911
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.948,
+          0.953,
+          0.922,
+          0.932,
+          0.932
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.933,
+          0.933,
+          0.924,
+          0.933,
+          0.933
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.911,
+          0.917,
+          0.932,
+          0.911,
+          0.919
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.932,
+          0.922,
+          0.922,
+          0.932,
+          0.933
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.969,
+          0.969,
+          0.969,
+          0.969,
+          0.966
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.948,
+          0.969,
+          0.953,
+          0.969,
+          0.969
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.938,
+          0.92,
+          0.938,
+          0.943,
+          0.938
+        ],
+        "variance_in_late": 0.0001
+      }
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+[
+  {
+    "dimension": "s[..., 0] (Agent 0 health)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.82,
+        0.2,
+        0.11
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 6] (Agent 1 health)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.05,
+        0.98,
+        0.01
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 12] (Agent 1 health)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.14,
+        0.23,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 2] (Agent 0 absolute X coordination)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.77,
+        0.73
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.86,
+        0.5,
+        0.53
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 3] (Agent 0 absolute Y coordination)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        0.37,
+        0.18
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 8] (Agent 1 absolute X coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 9] (Agent 1 absolute Y coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.44,
+        0.49,
+        0.51
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.33,
+        0.44,
+        0.32
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 14] (Agent 2 absolute X coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.69,
+        0.7,
+        0.81
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.53,
+        0.57,
+        0.79
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 15] (Agent 2 absolute Y coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.29,
+        0.36,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 19] (Enemy(Hydralisk) absolute X coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 20] (Enemy(Hydralisk) absolute Y coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 24] (Enemy(Medivac) absolute X coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 25] (Enemy(Medivac) absolute Y coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  }
+]

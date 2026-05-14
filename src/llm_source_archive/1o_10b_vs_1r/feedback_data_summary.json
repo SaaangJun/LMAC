@@ -1,0 +1,134 @@
+[
+  {
+    "dimension": "s[..., 62] (Agent 10 absolute X coordination)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.64,
+        0.56,
+        0.5,
+        0.48,
+        0.49,
+        0.52,
+        0.57,
+        0.63,
+        0.61,
+        0.65,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.52,
+        0.47,
+        0.36,
+        0.28,
+        0.24,
+        0.29,
+        0.32,
+        0.37,
+        0.42,
+        0.39,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 63] (Agent 10 absolute Y coordination)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98,
+        1.0,
+        0.98,
+        0.96,
+        0.95,
+        0.98,
+        0.98,
+        0.98,
+        0.97,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.38,
+        0.37,
+        0.35,
+        0.26,
+        0.31,
+        0.32,
+        0.31,
+        0.39,
+        0.36,
+        0.39,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 67] (Enemy absolute X coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.65,
+        0.58,
+        0.52,
+        0.49,
+        0.51,
+        0.53,
+        0.6,
+        0.64,
+        0.62,
+        0.67,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.52,
+        0.45,
+        0.37,
+        0.29,
+        0.27,
+        0.32,
+        0.36,
+        0.38,
+        0.46,
+        0.42,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 68] (Enemy absolute Y coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.99,
+        1.0,
+        0.99,
+        0.97,
+        0.95,
+        0.98,
+        0.98,
+        0.98,
+        0.97,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.39,
+        0.39,
+        0.35,
+        0.26,
+        0.31,
+        0.34,
+        0.3,
+        0.38,
+        0.36,
+        0.38,
+        1.0
+      ]
+    }
+  }
+]

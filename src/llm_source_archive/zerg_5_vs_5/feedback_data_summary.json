@@ -1,0 +1,1262 @@
+[
+  {
+    "dimension": "s[..., 0] (ally_0_health)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94,
+        0.93,
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.85,
+        0.73,
+        0.7,
+        0.67,
+        0.67
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 2] (ally_0_absolute_x)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.93,
+        0.93,
+        0.93,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92,
+        0.9,
+        0.9,
+        0.9
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 3] (ally_0_absolute_y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.81,
+        0.8,
+        0.8,
+        0.81,
+        0.8
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.76,
+        0.76,
+        0.76,
+        0.76,
+        0.76
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 4] (ally_0_unit_type_bit_0)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 5] (ally_0_unit_type_bit_1)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.7,
+        0.64,
+        0.69,
+        0.65
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 6] (ally_0_unit_type_bit_2)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98,
+        0.98,
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.83,
+        0.83,
+        0.78,
+        0.78
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 7] (ally_1_health)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.93,
+        0.94,
+        0.93,
+        0.93
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.68,
+        0.8,
+        0.69,
+        0.66,
+        0.68
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 9] (ally_1_absolute_x)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.97,
+        0.96,
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94,
+        0.92,
+        0.92,
+        0.93
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 10] (ally_1_absolute_y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.87,
+        0.87,
+        0.87,
+        0.87
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.85,
+        0.84,
+        0.86,
+        0.85,
+        0.86
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 11] (ally_1_unit_type_bit_0)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.98,
+        0.93,
+        0.96,
+        0.89
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 12] (ally_1_unit_type_bit_1)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99,
+        1.0,
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.71,
+        0.91,
+        0.71,
+        0.69,
+        0.7
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 13] (ally_1_unit_type_bit_2)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99,
+        0.99,
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97,
+        0.96,
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 14] (ally_2_health)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.94,
+        0.94,
+        0.94,
+        0.93
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.7,
+        0.68,
+        0.84,
+        0.7,
+        0.64
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 16] (ally_2_absolute_x)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96,
+        0.97,
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.92,
+        0.95,
+        0.94,
+        0.91
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 17] (ally_2_absolute_y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.83,
+        0.84,
+        0.84,
+        0.84,
+        0.83
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 18] (ally_2_unit_type_bit_0)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.77,
+        0.78,
+        0.98,
+        0.76,
+        0.69
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 19] (ally_2_unit_type_bit_1)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98,
+        0.98,
+        0.99,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.78,
+        0.79,
+        0.94,
+        0.74,
+        0.74
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 20] (ally_2_unit_type_bit_2)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99,
+        0.99,
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99,
+        0.99,
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 21] (ally_3_health)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92,
+        0.92,
+        0.92,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.67,
+        0.59,
+        0.62,
+        0.84,
+        0.56
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 23] (ally_3_absolute_x)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.91,
+        0.91,
+        0.92,
+        0.91
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.82,
+        0.83,
+        0.82,
+        0.84,
+        0.83
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 24] (ally_3_absolute_y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.77,
+        0.76,
+        0.77,
+        0.78,
+        0.77
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.74,
+        0.74,
+        0.73,
+        0.73,
+        0.72
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 25] (ally_3_unit_type_bit_0)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99,
+        0.99,
+        1.0,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.67,
+        0.58,
+        0.62,
+        0.96,
+        0.6
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 26] (ally_3_unit_type_bit_1)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.92,
+        0.95,
+        0.99,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 27] (ally_3_unit_type_bit_2)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 28] (ally_4_health)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94,
+        0.93,
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.68,
+        0.76,
+        0.65,
+        0.76,
+        0.85
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 30] (ally_4_absolute_x)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.88,
+        0.89,
+        0.89,
+        0.89,
+        0.89
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.83,
+        0.84,
+        0.84,
+        0.83,
+        0.84
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 31] (ally_4_absolute_y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.81,
+        0.8,
+        0.81,
+        0.81,
+        0.81
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.74,
+        0.74,
+        0.75,
+        0.74,
+        0.74
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 32] (ally_4_unit_type_bit_0)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99,
+        0.99,
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.68,
+        0.72,
+        0.69,
+        0.77,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 33] (ally_4_unit_type_bit_1)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.98,
+        0.98,
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 34] (ally_4_unit_type_bit_2)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 35] (enemy_0_health)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.73,
+        0.75,
+        0.73,
+        0.73,
+        0.73
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.72,
+        0.68,
+        0.69,
+        0.6,
+        0.6
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 36] (enemy_0_absolute_x)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.85,
+        0.84,
+        0.85,
+        0.84,
+        0.84
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.82,
+        0.82,
+        0.82,
+        0.82,
+        0.82
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 37] (enemy_0_absolute_y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.66,
+        0.66,
+        0.67,
+        0.67,
+        0.66
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.62,
+        0.63,
+        0.63,
+        0.63,
+        0.62
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 38] (enemy_0_unit_type_bit_0)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.74,
+        0.74,
+        0.74,
+        0.74,
+        0.76
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.55,
+        0.6,
+        0.63,
+        0.54,
+        0.59
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 39] (enemy_0_unit_type_bit_1)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.66,
+        0.66,
+        0.65,
+        0.67,
+        0.66
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.58,
+        0.61,
+        0.56,
+        0.46,
+        0.46
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 40] (enemy_0_unit_type_bit_2)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.86,
+        0.87,
+        0.87,
+        0.87
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.93,
+        0.94,
+        0.94,
+        0.93
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 41] (enemy_1_health)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.73,
+        0.74,
+        0.74,
+        0.73,
+        0.73
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.63,
+        0.6,
+        0.6,
+        0.61,
+        0.67
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 42] (enemy_1_absolute_x)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.8,
+        0.8,
+        0.81,
+        0.79,
+        0.8
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.78,
+        0.77,
+        0.79,
+        0.78,
+        0.79
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 43] (enemy_1_absolute_y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.65,
+        0.65,
+        0.66,
+        0.65,
+        0.65
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.65,
+        0.64,
+        0.64,
+        0.65,
+        0.65
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 44] (enemy_1_unit_type_bit_0)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.72,
+        0.72,
+        0.7,
+        0.7,
+        0.71
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.48,
+        0.51,
+        0.54,
+        0.48,
+        0.57
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 45] (enemy_1_unit_type_bit_1)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.77,
+        0.75,
+        0.77,
+        0.77,
+        0.76
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.62,
+        0.58,
+        0.56,
+        0.51,
+        0.61
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 46] (enemy_1_unit_type_bit_2)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.85,
+        0.84,
+        0.85,
+        0.84,
+        0.84
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.89,
+        0.91,
+        0.9,
+        0.89
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 47] (enemy_2_health)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.75,
+        0.75,
+        0.74,
+        0.75,
+        0.74
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.63,
+        0.65,
+        0.57,
+        0.57,
+        0.6
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 48] (enemy_2_absolute_x)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.83,
+        0.83,
+        0.82,
+        0.82,
+        0.82
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.82,
+        0.82,
+        0.82,
+        0.82,
+        0.82
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 49] (enemy_2_absolute_y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.74,
+        0.74,
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.71,
+        0.7,
+        0.7,
+        0.71,
+        0.7
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 50] (enemy_2_unit_type_bit_0)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.51,
+        0.58,
+        0.57,
+        0.54,
+        0.57
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 51] (enemy_2_unit_type_bit_1)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.64,
+        0.67,
+        0.57,
+        0.52,
+        0.63
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 52] (enemy_2_unit_type_bit_2)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95,
+        0.95,
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.95,
+        0.97,
+        0.97,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 53] (enemy_3_health)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.66,
+        0.67,
+        0.66,
+        0.66,
+        0.65
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.65,
+        0.66,
+        0.62,
+        0.64,
+        0.6
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 54] (enemy_3_absolute_x)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.87,
+        0.86,
+        0.87,
+        0.87
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.81,
+        0.81,
+        0.81,
+        0.82,
+        0.81
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 55] (enemy_3_absolute_y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.65,
+        0.65,
+        0.65,
+        0.66,
+        0.65
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.63,
+        0.62,
+        0.64,
+        0.63,
+        0.62
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 56] (enemy_3_unit_type_bit_0)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.79,
+        0.78,
+        0.79,
+        0.78,
+        0.8
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.59,
+        0.64,
+        0.59,
+        0.6,
+        0.67
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 57] (enemy_3_unit_type_bit_1)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.76,
+        0.74,
+        0.76,
+        0.78,
+        0.78
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.58,
+        0.6,
+        0.57,
+        0.65,
+        0.64
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 58] (enemy_3_unit_type_bit_2)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92,
+        0.92,
+        0.92,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 59] (enemy_4_health)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.85,
+        0.87,
+        0.84,
+        0.85,
+        0.85
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.75,
+        0.77,
+        0.73,
+        0.7,
+        0.7
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 60] (enemy_4_absolute_x)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.85,
+        0.85,
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.83,
+        0.83,
+        0.82,
+        0.83,
+        0.82
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 61] (enemy_4_absolute_y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.66,
+        0.64,
+        0.66,
+        0.65,
+        0.66
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.61,
+        0.6,
+        0.6,
+        0.61,
+        0.6
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 62] (enemy_4_unit_type_bit_0)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.79,
+        0.78,
+        0.78,
+        0.77,
+        0.79
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.65,
+        0.64,
+        0.59,
+        0.61,
+        0.59
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 63] (enemy_4_unit_type_bit_1)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.73,
+        0.72,
+        0.72,
+        0.75,
+        0.73
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.61,
+        0.68,
+        0.56,
+        0.6,
+        0.59
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 64] (enemy_4_unit_type_bit_2)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93,
+        0.93,
+        0.93,
+        0.93
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.94,
+        0.94,
+        0.95,
+        0.95
+      ]
+    }
+  }
+]

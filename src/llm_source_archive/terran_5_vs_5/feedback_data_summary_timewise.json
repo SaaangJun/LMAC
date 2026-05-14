@@ -1,0 +1,3049 @@
+{
+  "dimensions": [
+    {
+      "dim": "s[0] - ally_0_health",
+      "with_communication": {
+        "early": [
+          0.992,
+          0.997,
+          0.997,
+          0.997,
+          0.992
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.938,
+          0.971,
+          0.97,
+          0.97,
+          0.984
+        ],
+        "variance_in_early-mid": 0.0002,
+        "mid": [
+          0.966,
+          0.971,
+          0.977,
+          0.971,
+          0.947
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.996,
+          0.98,
+          0.971,
+          0.962,
+          0.937
+        ],
+        "variance_in_mid-late": 0.0004,
+        "late": [
+          0.989,
+          0.992,
+          0.973,
+          0.97,
+          0.965
+        ],
+        "variance_in_late": 0.0001
+      },
+      "without_communication": {
+        "early": [
+          0.981,
+          0.996,
+          1.0,
+          0.992,
+          0.99
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.937,
+          0.939,
+          0.941,
+          0.909,
+          0.872
+        ],
+        "variance_in_early-mid": 0.0007,
+        "mid": [
+          0.974,
+          0.753,
+          0.703,
+          0.661,
+          0.661
+        ],
+        "variance_in_mid": 0.0136,
+        "mid-late": [
+          0.976,
+          0.684,
+          0.586,
+          0.644,
+          0.581
+        ],
+        "variance_in_mid-late": 0.0213,
+        "late": [
+          0.997,
+          0.762,
+          0.671,
+          0.688,
+          0.633
+        ],
+        "variance_in_late": 0.017
+      }
+    },
+    {
+      "dim": "s[1] - ally_0_cooldown",
+      "with_communication": {
+        "early": [
+          0.914,
+          0.944,
+          0.949,
+          0.948,
+          0.957
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.727,
+          0.846,
+          0.854,
+          0.866,
+          0.859
+        ],
+        "variance_in_early-mid": 0.0027,
+        "mid": [
+          0.693,
+          0.807,
+          0.817,
+          0.822,
+          0.829
+        ],
+        "variance_in_mid": 0.0026,
+        "mid-late": [
+          0.783,
+          0.865,
+          0.885,
+          0.865,
+          0.858
+        ],
+        "variance_in_mid-late": 0.0012,
+        "late": [
+          0.849,
+          0.914,
+          0.902,
+          0.906,
+          0.909
+        ],
+        "variance_in_late": 0.0006
+      },
+      "without_communication": {
+        "early": [
+          0.893,
+          0.864,
+          0.889,
+          0.857,
+          0.87
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.661,
+          0.601,
+          0.594,
+          0.634,
+          0.628
+        ],
+        "variance_in_early-mid": 0.0006,
+        "mid": [
+          0.717,
+          0.603,
+          0.702,
+          0.697,
+          0.656
+        ],
+        "variance_in_mid": 0.0017,
+        "mid-late": [
+          0.783,
+          0.758,
+          0.741,
+          0.758,
+          0.712
+        ],
+        "variance_in_mid-late": 0.0005,
+        "late": [
+          0.83,
+          0.788,
+          0.834,
+          0.848,
+          0.836
+        ],
+        "variance_in_late": 0.0004
+      }
+    },
+    {
+      "dim": "s[2] - ally_0_absolute_x",
+      "with_communication": {
+        "early": [
+          0.973,
+          0.982,
+          0.973,
+          0.973,
+          0.978
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.975,
+          0.974,
+          0.974,
+          0.974,
+          0.974
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.988,
+          0.991,
+          0.991,
+          0.996,
+          0.991
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.969,
+          0.969,
+          0.969,
+          0.969,
+          0.965
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.985,
+          0.963,
+          0.953,
+          0.954,
+          0.931
+        ],
+        "variance_in_early": 0.0003,
+        "early-mid": [
+          0.938,
+          0.941,
+          0.902,
+          0.913,
+          0.873
+        ],
+        "variance_in_early-mid": 0.0006,
+        "mid": [
+          0.976,
+          0.978,
+          0.941,
+          0.978,
+          0.982
+        ],
+        "variance_in_mid": 0.0002,
+        "mid-late": [
+          0.934,
+          0.921,
+          0.868,
+          0.918,
+          0.919
+        ],
+        "variance_in_mid-late": 0.0005,
+        "late": [
+          0.92,
+          0.913,
+          0.903,
+          0.913,
+          0.903
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[3] - ally_0_absolute_y",
+      "with_communication": {
+        "early": [
+          0.928,
+          0.958,
+          0.984,
+          0.988,
+          0.992
+        ],
+        "variance_in_early": 0.0006,
+        "early-mid": [
+          0.943,
+          0.954,
+          0.963,
+          0.982,
+          0.982
+        ],
+        "variance_in_early-mid": 0.0002,
+        "mid": [
+          0.882,
+          0.95,
+          0.954,
+          0.949,
+          0.954
+        ],
+        "variance_in_mid": 0.0008,
+        "mid-late": [
+          0.939,
+          0.952,
+          0.965,
+          0.957,
+          0.961
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.995,
+          1.0,
+          1.0,
+          0.997,
+          0.997
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.781,
+          0.781,
+          0.748,
+          0.774,
+          0.788
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.781,
+          0.781,
+          0.757,
+          0.781,
+          0.799
+        ],
+        "variance_in_early-mid": 0.0002,
+        "mid": [
+          0.797,
+          0.797,
+          0.792,
+          0.797,
+          0.793
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.837,
+          0.837,
+          0.841,
+          0.837,
+          0.823
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.868,
+          0.868,
+          0.872,
+          0.868,
+          0.868
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[7] - ally_1_health",
+      "with_communication": {
+        "early": [
+          0.997,
+          0.991,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.992,
+          0.961,
+          0.988,
+          0.988,
+          0.988
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.957,
+          0.959,
+          0.979,
+          0.97,
+          0.97
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.919,
+          0.888,
+          0.914,
+          0.912,
+          0.907
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          1.0,
+          0.977,
+          0.989,
+          0.974,
+          0.978
+        ],
+        "variance_in_late": 0.0001
+      },
+      "without_communication": {
+        "early": [
+          0.994,
+          0.993,
+          0.955,
+          0.988,
+          0.965
+        ],
+        "variance_in_early": 0.0003,
+        "early-mid": [
+          0.854,
+          0.9,
+          0.739,
+          0.726,
+          0.754
+        ],
+        "variance_in_early-mid": 0.0048,
+        "mid": [
+          0.667,
+          0.852,
+          0.575,
+          0.666,
+          0.608
+        ],
+        "variance_in_mid": 0.0092,
+        "mid-late": [
+          0.687,
+          0.929,
+          0.585,
+          0.625,
+          0.643
+        ],
+        "variance_in_mid-late": 0.0149,
+        "late": [
+          0.693,
+          0.945,
+          0.763,
+          0.744,
+          0.737
+        ],
+        "variance_in_late": 0.0076
+      }
+    },
+    {
+      "dim": "s[8] - ally_1_cooldown",
+      "with_communication": {
+        "early": [
+          0.885,
+          0.874,
+          0.87,
+          0.873,
+          0.891
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.662,
+          0.636,
+          0.66,
+          0.665,
+          0.668
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.633,
+          0.628,
+          0.645,
+          0.651,
+          0.666
+        ],
+        "variance_in_mid": 0.0002,
+        "mid-late": [
+          0.695,
+          0.703,
+          0.721,
+          0.748,
+          0.706
+        ],
+        "variance_in_mid-late": 0.0003,
+        "late": [
+          0.865,
+          0.858,
+          0.822,
+          0.827,
+          0.834
+        ],
+        "variance_in_late": 0.0003
+      },
+      "without_communication": {
+        "early": [
+          0.855,
+          0.884,
+          0.866,
+          0.864,
+          0.855
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.64,
+          0.723,
+          0.667,
+          0.671,
+          0.693
+        ],
+        "variance_in_early-mid": 0.0008,
+        "mid": [
+          0.636,
+          0.694,
+          0.609,
+          0.655,
+          0.658
+        ],
+        "variance_in_mid": 0.0008,
+        "mid-late": [
+          0.689,
+          0.708,
+          0.7,
+          0.697,
+          0.707
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.828,
+          0.851,
+          0.822,
+          0.829,
+          0.817
+        ],
+        "variance_in_late": 0.0001
+      }
+    },
+    {
+      "dim": "s[9] - ally_1_absolute_x",
+      "with_communication": {
+        "early": [
+          0.99,
+          0.978,
+          0.993,
+          0.99,
+          0.976
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.99,
+          0.997,
+          1.0,
+          1.0,
+          0.994
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.984,
+          0.995,
+          0.995,
+          0.99,
+          0.974
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.994
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.979,
+          0.983,
+          0.986,
+          0.986,
+          0.99
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.967,
+          0.996,
+          0.95,
+          0.985,
+          0.954
+        ],
+        "variance_in_early": 0.0003,
+        "early-mid": [
+          0.997,
+          0.972,
+          0.946,
+          0.997,
+          0.958
+        ],
+        "variance_in_early-mid": 0.0004,
+        "mid": [
+          0.99,
+          0.986,
+          0.969,
+          0.993,
+          1.0
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.983,
+          0.99,
+          0.969,
+          0.976,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.951,
+          0.958,
+          0.938,
+          0.948,
+          0.972
+        ],
+        "variance_in_late": 0.0001
+      }
+    },
+    {
+      "dim": "s[10] - ally_1_absolute_y",
+      "with_communication": {
+        "early": [
+          0.875,
+          0.849,
+          0.871,
+          0.879,
+          0.858
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.861,
+          0.825,
+          0.867,
+          0.862,
+          0.859
+        ],
+        "variance_in_early-mid": 0.0002,
+        "mid": [
+          0.878,
+          0.875,
+          0.888,
+          0.899,
+          0.916
+        ],
+        "variance_in_mid": 0.0002,
+        "mid-late": [
+          0.935,
+          0.939,
+          0.954,
+          0.954,
+          0.966
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.992,
+          0.98,
+          0.973,
+          0.973,
+          0.984
+        ],
+        "variance_in_late": 0.0001
+      },
+      "without_communication": {
+        "early": [
+          0.811,
+          0.827,
+          0.821,
+          0.784,
+          0.801
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.817,
+          0.836,
+          0.847,
+          0.788,
+          0.8
+        ],
+        "variance_in_early-mid": 0.0005,
+        "mid": [
+          0.869,
+          0.9,
+          0.896,
+          0.88,
+          0.857
+        ],
+        "variance_in_mid": 0.0003,
+        "mid-late": [
+          0.914,
+          0.972,
+          0.965,
+          0.972,
+          0.95
+        ],
+        "variance_in_mid-late": 0.0005,
+        "late": [
+          0.938,
+          0.969,
+          0.969,
+          0.969,
+          0.955
+        ],
+        "variance_in_late": 0.0002
+      }
+    },
+    {
+      "dim": "s[14] - ally_2_health",
+      "with_communication": {
+        "early": [
+          0.991,
+          0.99,
+          0.99,
+          0.99,
+          0.99
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.976,
+          0.966,
+          0.986,
+          0.98,
+          0.977
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.973,
+          0.979,
+          0.977,
+          0.982,
+          0.97
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.967,
+          0.97,
+          0.981,
+          0.965,
+          0.946
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.98,
+          0.987,
+          0.964,
+          0.98,
+          0.984
+        ],
+        "variance_in_late": 0.0001
+      },
+      "without_communication": {
+        "early": [
+          0.961,
+          0.956,
+          0.968,
+          0.96,
+          0.977
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.806,
+          0.771,
+          0.873,
+          0.765,
+          0.808
+        ],
+        "variance_in_early-mid": 0.0015,
+        "mid": [
+          0.658,
+          0.595,
+          0.896,
+          0.676,
+          0.757
+        ],
+        "variance_in_mid": 0.0107,
+        "mid-late": [
+          0.662,
+          0.691,
+          0.885,
+          0.762,
+          0.721
+        ],
+        "variance_in_mid-late": 0.0061,
+        "late": [
+          0.768,
+          0.736,
+          0.927,
+          0.825,
+          0.731
+        ],
+        "variance_in_late": 0.0053
+      }
+    },
+    {
+      "dim": "s[15] - ally_2_cooldown",
+      "with_communication": {
+        "early": [
+          0.884,
+          0.886,
+          0.867,
+          0.865,
+          0.88
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.737,
+          0.746,
+          0.716,
+          0.744,
+          0.74
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.752,
+          0.777,
+          0.747,
+          0.782,
+          0.793
+        ],
+        "variance_in_mid": 0.0003,
+        "mid-late": [
+          0.792,
+          0.776,
+          0.78,
+          0.788,
+          0.792
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.9,
+          0.896,
+          0.881,
+          0.895,
+          0.894
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.862,
+          0.857,
+          0.894,
+          0.839,
+          0.827
+        ],
+        "variance_in_early": 0.0005,
+        "early-mid": [
+          0.68,
+          0.712,
+          0.748,
+          0.704,
+          0.704
+        ],
+        "variance_in_early-mid": 0.0005,
+        "mid": [
+          0.739,
+          0.748,
+          0.758,
+          0.711,
+          0.704
+        ],
+        "variance_in_mid": 0.0004,
+        "mid-late": [
+          0.81,
+          0.74,
+          0.774,
+          0.744,
+          0.758
+        ],
+        "variance_in_mid-late": 0.0006,
+        "late": [
+          0.878,
+          0.882,
+          0.866,
+          0.86,
+          0.863
+        ],
+        "variance_in_late": 0.0001
+      }
+    },
+    {
+      "dim": "s[16] - ally_2_absolute_x",
+      "with_communication": {
+        "early": [
+          0.995,
+          0.991,
+          0.986,
+          0.99,
+          0.995
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.986,
+          0.986,
+          0.982,
+          0.986,
+          0.986
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.941,
+          0.941,
+          0.949,
+          0.941,
+          0.943
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.948,
+          0.939,
+          0.939,
+          0.939,
+          0.938
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.948,
+          0.955,
+          0.948,
+          0.944,
+          0.944
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.969,
+          0.956,
+          0.991,
+          0.979,
+          0.992
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.938,
+          0.925,
+          0.972,
+          0.953,
+          0.932
+        ],
+        "variance_in_early-mid": 0.0003,
+        "mid": [
+          0.913,
+          0.879,
+          0.943,
+          0.948,
+          0.938
+        ],
+        "variance_in_mid": 0.0007,
+        "mid-late": [
+          0.908,
+          0.892,
+          0.919,
+          0.939,
+          0.937
+        ],
+        "variance_in_mid-late": 0.0003,
+        "late": [
+          0.915,
+          0.934,
+          0.939,
+          0.931,
+          0.927
+        ],
+        "variance_in_late": 0.0001
+      }
+    },
+    {
+      "dim": "s[17] - ally_2_absolute_y",
+      "with_communication": {
+        "early": [
+          0.841,
+          0.831,
+          0.818,
+          0.82,
+          0.809
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.822,
+          0.788,
+          0.775,
+          0.784,
+          0.769
+        ],
+        "variance_in_early-mid": 0.0003,
+        "mid": [
+          0.891,
+          0.891,
+          0.874,
+          0.866,
+          0.861
+        ],
+        "variance_in_mid": 0.0002,
+        "mid-late": [
+          0.94,
+          0.94,
+          0.932,
+          0.936,
+          0.936
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.976,
+          0.972,
+          0.974,
+          0.977,
+          0.977
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.811,
+          0.812,
+          0.849,
+          0.844,
+          0.844
+        ],
+        "variance_in_early": 0.0003,
+        "early-mid": [
+          0.753,
+          0.794,
+          0.839,
+          0.819,
+          0.827
+        ],
+        "variance_in_early-mid": 0.0009,
+        "mid": [
+          0.774,
+          0.804,
+          0.872,
+          0.84,
+          0.872
+        ],
+        "variance_in_mid": 0.0015,
+        "mid-late": [
+          0.799,
+          0.879,
+          0.914,
+          0.895,
+          0.923
+        ],
+        "variance_in_mid-late": 0.002,
+        "late": [
+          0.917,
+          0.944,
+          0.959,
+          0.946,
+          0.969
+        ],
+        "variance_in_late": 0.0003
+      }
+    },
+    {
+      "dim": "s[21] - ally_3_health",
+      "with_communication": {
+        "early": [
+          0.991,
+          0.991,
+          0.995,
+          0.991,
+          0.995
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.992,
+          1.0,
+          0.983,
+          0.967,
+          0.942
+        ],
+        "variance_in_early-mid": 0.0004,
+        "mid": [
+          0.95,
+          0.966,
+          0.951,
+          0.967,
+          0.933
+        ],
+        "variance_in_mid": 0.0002,
+        "mid-late": [
+          0.991,
+          0.995,
+          0.987,
+          1.0,
+          0.986
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.996,
+          0.996,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.955,
+          0.95,
+          0.931,
+          0.952,
+          0.939
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.817,
+          0.812,
+          0.854,
+          0.915,
+          0.834
+        ],
+        "variance_in_early-mid": 0.0014,
+        "mid": [
+          0.786,
+          0.759,
+          0.774,
+          0.943,
+          0.793
+        ],
+        "variance_in_mid": 0.0045,
+        "mid-late": [
+          0.693,
+          0.697,
+          0.741,
+          0.934,
+          0.823
+        ],
+        "variance_in_mid-late": 0.0083,
+        "late": [
+          0.692,
+          0.79,
+          0.799,
+          0.971,
+          0.848
+        ],
+        "variance_in_late": 0.0083
+      }
+    },
+    {
+      "dim": "s[22] - ally_3_cooldown",
+      "with_communication": {
+        "early": [
+          0.9,
+          0.896,
+          0.896,
+          0.892,
+          0.892
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.846,
+          0.855,
+          0.843,
+          0.821,
+          0.839
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.84,
+          0.832,
+          0.812,
+          0.817,
+          0.817
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.87,
+          0.887,
+          0.878,
+          0.862,
+          0.862
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.966,
+          0.971,
+          0.971,
+          0.971,
+          0.966
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.891,
+          0.893,
+          0.869,
+          0.897,
+          0.864
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.782,
+          0.827,
+          0.825,
+          0.862,
+          0.789
+        ],
+        "variance_in_early-mid": 0.0008,
+        "mid": [
+          0.817,
+          0.788,
+          0.804,
+          0.815,
+          0.789
+        ],
+        "variance_in_mid": 0.0002,
+        "mid-late": [
+          0.871,
+          0.837,
+          0.824,
+          0.846,
+          0.839
+        ],
+        "variance_in_mid-late": 0.0002,
+        "late": [
+          0.976,
+          0.928,
+          0.966,
+          0.966,
+          0.966
+        ],
+        "variance_in_late": 0.0003
+      }
+    },
+    {
+      "dim": "s[23] - ally_3_absolute_x",
+      "with_communication": {
+        "early": [
+          0.977,
+          0.974,
+          0.971,
+          0.956,
+          0.966
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.984,
+          0.99,
+          0.993,
+          0.99,
+          0.993
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.967,
+          0.971,
+          0.963,
+          0.971,
+          0.968
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.953,
+          0.956,
+          0.956,
+          0.961,
+          0.96
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.94,
+          0.94,
+          0.96,
+          0.957,
+          0.957
+        ],
+        "variance_in_late": 0.0001
+      },
+      "without_communication": {
+        "early": [
+          0.966,
+          0.938,
+          0.948,
+          0.969,
+          0.966
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.929,
+          0.956,
+          0.975,
+          0.99,
+          0.974
+        ],
+        "variance_in_early-mid": 0.0004,
+        "mid": [
+          0.9,
+          0.964,
+          0.98,
+          1.0,
+          0.967
+        ],
+        "variance_in_mid": 0.0011,
+        "mid-late": [
+          0.929,
+          0.929,
+          0.96,
+          1.0,
+          0.96
+        ],
+        "variance_in_mid-late": 0.0007,
+        "late": [
+          0.938,
+          0.934,
+          0.934,
+          0.979,
+          0.926
+        ],
+        "variance_in_late": 0.0004
+      }
+    },
+    {
+      "dim": "s[24] - ally_3_absolute_y",
+      "with_communication": {
+        "early": [
+          0.869,
+          0.848,
+          0.854,
+          0.833,
+          0.831
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.942,
+          0.931,
+          0.939,
+          0.9,
+          0.906
+        ],
+        "variance_in_early-mid": 0.0003,
+        "mid": [
+          0.952,
+          0.931,
+          0.927,
+          0.923,
+          0.927
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.955,
+          0.951,
+          0.932,
+          0.924,
+          0.938
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.965,
+          0.949,
+          0.953,
+          0.938,
+          0.958
+        ],
+        "variance_in_late": 0.0001
+      },
+      "without_communication": {
+        "early": [
+          0.794,
+          0.871,
+          0.831,
+          0.896,
+          0.871
+        ],
+        "variance_in_early": 0.0013,
+        "early-mid": [
+          0.795,
+          0.862,
+          0.858,
+          0.915,
+          0.92
+        ],
+        "variance_in_early-mid": 0.0021,
+        "mid": [
+          0.796,
+          0.822,
+          0.866,
+          0.895,
+          0.898
+        ],
+        "variance_in_mid": 0.0016,
+        "mid-late": [
+          0.852,
+          0.88,
+          0.888,
+          0.964,
+          0.919
+        ],
+        "variance_in_mid-late": 0.0015,
+        "late": [
+          0.929,
+          0.9,
+          0.942,
+          0.986,
+          0.928
+        ],
+        "variance_in_late": 0.0008
+      }
+    },
+    {
+      "dim": "s[28] - ally_4_health",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.995
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.996,
+          1.0,
+          0.99,
+          0.996,
+          0.977
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.97,
+          0.97,
+          0.96,
+          0.959,
+          0.949
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.993,
+          0.987,
+          0.99,
+          0.973,
+          0.992
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          1.0,
+          1.0,
+          0.997,
+          0.997,
+          0.991
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.952,
+          0.965,
+          0.987,
+          0.97,
+          0.988
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.744,
+          0.803,
+          0.826,
+          0.838,
+          0.971
+        ],
+        "variance_in_early-mid": 0.0056,
+        "mid": [
+          0.587,
+          0.67,
+          0.792,
+          0.746,
+          0.936
+        ],
+        "variance_in_mid": 0.0139,
+        "mid-late": [
+          0.661,
+          0.66,
+          0.644,
+          0.734,
+          0.932
+        ],
+        "variance_in_mid-late": 0.0116,
+        "late": [
+          0.652,
+          0.718,
+          0.629,
+          0.726,
+          0.97
+        ],
+        "variance_in_late": 0.0147
+      }
+    },
+    {
+      "dim": "s[29] - ally_4_cooldown",
+      "with_communication": {
+        "early": [
+          0.906,
+          0.905,
+          0.905,
+          0.905,
+          0.912
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.816,
+          0.819,
+          0.823,
+          0.847,
+          0.839
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.867,
+          0.844,
+          0.857,
+          0.857,
+          0.865
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.904,
+          0.9,
+          0.895,
+          0.895,
+          0.895
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.969,
+          0.966,
+          0.969,
+          0.966,
+          0.966
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.92,
+          0.916,
+          0.928,
+          0.917,
+          0.923
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.875,
+          0.889,
+          0.893,
+          0.885,
+          0.891
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.872,
+          0.915,
+          0.881,
+          0.893,
+          0.917
+        ],
+        "variance_in_mid": 0.0003,
+        "mid-late": [
+          0.879,
+          0.939,
+          0.939,
+          0.942,
+          0.932
+        ],
+        "variance_in_mid-late": 0.0006,
+        "late": [
+          0.945,
+          0.982,
+          0.99,
+          0.98,
+          0.99
+        ],
+        "variance_in_late": 0.0003
+      }
+    },
+    {
+      "dim": "s[30] - ally_4_absolute_x",
+      "with_communication": {
+        "early": [
+          0.996,
+          0.993,
+          0.992,
+          0.991,
+          0.974
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.938,
+          0.938,
+          0.938,
+          0.944,
+          0.938
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.962,
+          0.954,
+          0.951,
+          0.962,
+          0.943
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.975,
+          0.983,
+          0.988,
+          0.991,
+          0.949
+        ],
+        "variance_in_mid-late": 0.0002,
+        "late": [
+          0.964,
+          0.96,
+          0.964,
+          0.969,
+          0.955
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.938,
+          0.986,
+          0.958,
+          0.976,
+          0.984
+        ],
+        "variance_in_early": 0.0003,
+        "early-mid": [
+          0.866,
+          0.879,
+          0.892,
+          0.938,
+          0.941
+        ],
+        "variance_in_early-mid": 0.0009,
+        "mid": [
+          0.907,
+          0.88,
+          0.851,
+          0.906,
+          0.887
+        ],
+        "variance_in_mid": 0.0004,
+        "mid-late": [
+          0.953,
+          0.935,
+          0.946,
+          0.946,
+          0.96
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.94,
+          0.91,
+          0.935,
+          0.909,
+          0.954
+        ],
+        "variance_in_late": 0.0003
+      }
+    },
+    {
+      "dim": "s[31] - ally_4_absolute_y",
+      "with_communication": {
+        "early": [
+          0.949,
+          0.927,
+          0.917,
+          0.875,
+          0.792
+        ],
+        "variance_in_early": 0.0031,
+        "early-mid": [
+          0.961,
+          0.949,
+          0.947,
+          0.883,
+          0.812
+        ],
+        "variance_in_early-mid": 0.0032,
+        "mid": [
+          0.981,
+          0.972,
+          0.942,
+          0.944,
+          0.906
+        ],
+        "variance_in_mid": 0.0007,
+        "mid-late": [
+          0.994,
+          0.994,
+          0.989,
+          0.98,
+          0.931
+        ],
+        "variance_in_mid-late": 0.0006,
+        "late": [
+          0.993,
+          0.993,
+          0.975,
+          0.972,
+          0.917
+        ],
+        "variance_in_late": 0.0008
+      },
+      "without_communication": {
+        "early": [
+          0.749,
+          0.774,
+          0.796,
+          0.763,
+          0.806
+        ],
+        "variance_in_early": 0.0004,
+        "early-mid": [
+          0.74,
+          0.805,
+          0.818,
+          0.781,
+          0.835
+        ],
+        "variance_in_early-mid": 0.0011,
+        "mid": [
+          0.756,
+          0.799,
+          0.871,
+          0.824,
+          0.858
+        ],
+        "variance_in_mid": 0.0017,
+        "mid-late": [
+          0.84,
+          0.838,
+          0.883,
+          0.884,
+          0.869
+        ],
+        "variance_in_mid-late": 0.0004,
+        "late": [
+          0.828,
+          0.825,
+          0.844,
+          0.868,
+          0.844
+        ],
+        "variance_in_late": 0.0002
+      }
+    },
+    {
+      "dim": "s[35] - enemy_0_health",
+      "with_communication": {
+        "early": [
+          0.993,
+          0.993,
+          0.993,
+          0.993,
+          0.993
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.951,
+          0.948,
+          0.954,
+          0.944,
+          0.944
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.833,
+          0.866,
+          0.872,
+          0.863,
+          0.865
+        ],
+        "variance_in_mid": 0.0002,
+        "mid-late": [
+          0.78,
+          0.829,
+          0.874,
+          0.857,
+          0.906
+        ],
+        "variance_in_mid-late": 0.0018,
+        "late": [
+          0.741,
+          0.743,
+          0.803,
+          0.82,
+          0.843
+        ],
+        "variance_in_late": 0.0017
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          0.997,
+          0.957,
+          0.977,
+          0.993
+        ],
+        "variance_in_early": 0.0003,
+        "early-mid": [
+          0.951,
+          0.952,
+          0.873,
+          0.903,
+          0.88
+        ],
+        "variance_in_early-mid": 0.0011,
+        "mid": [
+          0.916,
+          0.858,
+          0.76,
+          0.806,
+          0.784
+        ],
+        "variance_in_mid": 0.0031,
+        "mid-late": [
+          0.802,
+          0.779,
+          0.665,
+          0.718,
+          0.668
+        ],
+        "variance_in_mid-late": 0.0031,
+        "late": [
+          0.8,
+          0.672,
+          0.637,
+          0.674,
+          0.595
+        ],
+        "variance_in_late": 0.0047
+      }
+    },
+    {
+      "dim": "s[36] - enemy_0_absolute_x",
+      "with_communication": {
+        "early": [
+          0.685,
+          0.681,
+          0.685,
+          0.678,
+          0.68
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.853,
+          0.865,
+          0.867,
+          0.867,
+          0.857
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.915,
+          0.924,
+          0.932,
+          0.939,
+          0.939
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.959,
+          0.969,
+          0.978,
+          0.978,
+          0.971
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.969,
+          0.965,
+          0.961,
+          0.969,
+          0.969
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.733,
+          0.73,
+          0.715,
+          0.728,
+          0.705
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.898,
+          0.952,
+          0.944,
+          0.933,
+          0.883
+        ],
+        "variance_in_early-mid": 0.0007,
+        "mid": [
+          0.906,
+          0.996,
+          0.986,
+          0.907,
+          0.936
+        ],
+        "variance_in_mid": 0.0015,
+        "mid-late": [
+          0.944,
+          0.972,
+          0.938,
+          0.916,
+          0.969
+        ],
+        "variance_in_mid-late": 0.0004,
+        "late": [
+          0.953,
+          0.921,
+          0.905,
+          0.929,
+          0.928
+        ],
+        "variance_in_late": 0.0002
+      }
+    },
+    {
+      "dim": "s[37] - enemy_0_absolute_y",
+      "with_communication": {
+        "early": [
+          0.594,
+          0.582,
+          0.565,
+          0.568,
+          0.579
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.844,
+          0.838,
+          0.828,
+          0.836,
+          0.842
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.871,
+          0.882,
+          0.875,
+          0.875,
+          0.882
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.888,
+          0.892,
+          0.884,
+          0.888,
+          0.887
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.931,
+          0.934,
+          0.92,
+          0.919,
+          0.905
+        ],
+        "variance_in_late": 0.0001
+      },
+      "without_communication": {
+        "early": [
+          0.629,
+          0.585,
+          0.622,
+          0.53,
+          0.577
+        ],
+        "variance_in_early": 0.0013,
+        "early-mid": [
+          0.799,
+          0.799,
+          0.799,
+          0.751,
+          0.772
+        ],
+        "variance_in_early-mid": 0.0004,
+        "mid": [
+          0.859,
+          0.83,
+          0.829,
+          0.786,
+          0.825
+        ],
+        "variance_in_mid": 0.0005,
+        "mid-late": [
+          0.866,
+          0.853,
+          0.914,
+          0.821,
+          0.888
+        ],
+        "variance_in_mid-late": 0.001,
+        "late": [
+          0.844,
+          0.839,
+          0.906,
+          0.827,
+          0.851
+        ],
+        "variance_in_late": 0.0008
+      }
+    },
+    {
+      "dim": "s[41] - enemy_1_health",
+      "with_communication": {
+        "early": [
+          0.953,
+          0.956,
+          0.964,
+          0.98,
+          0.976
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.819,
+          0.847,
+          0.887,
+          0.845,
+          0.829
+        ],
+        "variance_in_early-mid": 0.0005,
+        "mid": [
+          0.809,
+          0.854,
+          0.873,
+          0.821,
+          0.805
+        ],
+        "variance_in_mid": 0.0007,
+        "mid-late": [
+          0.85,
+          0.846,
+          0.855,
+          0.833,
+          0.76
+        ],
+        "variance_in_mid-late": 0.0012,
+        "late": [
+          0.855,
+          0.857,
+          0.86,
+          0.832,
+          0.765
+        ],
+        "variance_in_late": 0.0013
+      },
+      "without_communication": {
+        "early": [
+          0.95,
+          0.957,
+          0.964,
+          0.962,
+          0.978
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.879,
+          0.853,
+          0.824,
+          0.85,
+          0.877
+        ],
+        "variance_in_early-mid": 0.0004,
+        "mid": [
+          0.757,
+          0.728,
+          0.741,
+          0.691,
+          0.78
+        ],
+        "variance_in_mid": 0.0009,
+        "mid-late": [
+          0.725,
+          0.714,
+          0.576,
+          0.659,
+          0.673
+        ],
+        "variance_in_mid-late": 0.0028,
+        "late": [
+          0.651,
+          0.667,
+          0.61,
+          0.745,
+          0.565
+        ],
+        "variance_in_late": 0.0036
+      }
+    },
+    {
+      "dim": "s[42] - enemy_1_absolute_x",
+      "with_communication": {
+        "early": [
+          0.65,
+          0.642,
+          0.642,
+          0.645,
+          0.652
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.864,
+          0.859,
+          0.863,
+          0.865,
+          0.878
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.88,
+          0.88,
+          0.88,
+          0.889,
+          0.889
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.958,
+          0.958,
+          0.962,
+          0.959,
+          0.959
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.993,
+          0.99,
+          0.99,
+          0.993,
+          0.993
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.691,
+          0.711,
+          0.684,
+          0.7,
+          0.693
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.86,
+          0.885,
+          0.895,
+          0.87,
+          0.849
+        ],
+        "variance_in_early-mid": 0.0003,
+        "mid": [
+          0.871,
+          0.955,
+          0.946,
+          0.916,
+          0.921
+        ],
+        "variance_in_mid": 0.0009,
+        "mid-late": [
+          0.906,
+          0.927,
+          0.902,
+          0.898,
+          0.938
+        ],
+        "variance_in_mid-late": 0.0002,
+        "late": [
+          0.929,
+          0.907,
+          0.891,
+          0.951,
+          0.942
+        ],
+        "variance_in_late": 0.0005
+      }
+    },
+    {
+      "dim": "s[43] - enemy_1_absolute_y",
+      "with_communication": {
+        "early": [
+          0.485,
+          0.472,
+          0.479,
+          0.463,
+          0.451
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.753,
+          0.729,
+          0.734,
+          0.72,
+          0.712
+        ],
+        "variance_in_early-mid": 0.0002,
+        "mid": [
+          0.812,
+          0.791,
+          0.813,
+          0.807,
+          0.792
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.84,
+          0.831,
+          0.861,
+          0.853,
+          0.854
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.917,
+          0.911,
+          0.917,
+          0.922,
+          0.911
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.441,
+          0.455,
+          0.418,
+          0.449,
+          0.468
+        ],
+        "variance_in_early": 0.0003,
+        "early-mid": [
+          0.719,
+          0.692,
+          0.692,
+          0.705,
+          0.67
+        ],
+        "variance_in_early-mid": 0.0003,
+        "mid": [
+          0.795,
+          0.765,
+          0.798,
+          0.775,
+          0.733
+        ],
+        "variance_in_mid": 0.0006,
+        "mid-late": [
+          0.795,
+          0.831,
+          0.849,
+          0.827,
+          0.838
+        ],
+        "variance_in_mid-late": 0.0003,
+        "late": [
+          0.777,
+          0.804,
+          0.849,
+          0.834,
+          0.815
+        ],
+        "variance_in_late": 0.0006
+      }
+    },
+    {
+      "dim": "s[47] - enemy_2_health",
+      "with_communication": {
+        "early": [
+          0.99,
+          0.99,
+          0.99,
+          0.99,
+          0.99
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.992,
+          0.985,
+          0.989,
+          0.989,
+          0.989
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.959,
+          0.934,
+          0.964,
+          0.958,
+          0.928
+        ],
+        "variance_in_mid": 0.0002,
+        "mid-late": [
+          0.916,
+          0.874,
+          0.934,
+          0.94,
+          0.938
+        ],
+        "variance_in_mid-late": 0.0006,
+        "late": [
+          0.951,
+          0.915,
+          0.96,
+          0.942,
+          0.926
+        ],
+        "variance_in_late": 0.0003
+      },
+      "without_communication": {
+        "early": [
+          0.978,
+          0.98,
+          0.988,
+          0.974,
+          0.964
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.869,
+          0.835,
+          0.888,
+          0.877,
+          0.851
+        ],
+        "variance_in_early-mid": 0.0004,
+        "mid": [
+          0.833,
+          0.815,
+          0.794,
+          0.715,
+          0.758
+        ],
+        "variance_in_mid": 0.0018,
+        "mid-late": [
+          0.661,
+          0.708,
+          0.709,
+          0.676,
+          0.708
+        ],
+        "variance_in_mid-late": 0.0004,
+        "late": [
+          0.6,
+          0.745,
+          0.781,
+          0.673,
+          0.705
+        ],
+        "variance_in_late": 0.0039
+      }
+    },
+    {
+      "dim": "s[48] - enemy_2_absolute_x",
+      "with_communication": {
+        "early": [
+          0.703,
+          0.711,
+          0.711,
+          0.717,
+          0.718
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.899,
+          0.925,
+          0.921,
+          0.931,
+          0.931
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.909,
+          0.919,
+          0.9,
+          0.928,
+          0.951
+        ],
+        "variance_in_mid": 0.0003,
+        "mid-late": [
+          0.969,
+          0.969,
+          0.963,
+          0.963,
+          0.975
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.697,
+          0.712,
+          0.709,
+          0.687,
+          0.696
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.891,
+          0.892,
+          0.899,
+          0.916,
+          0.876
+        ],
+        "variance_in_early-mid": 0.0002,
+        "mid": [
+          0.845,
+          0.926,
+          0.925,
+          0.947,
+          0.901
+        ],
+        "variance_in_mid": 0.0012,
+        "mid-late": [
+          0.916,
+          0.941,
+          0.937,
+          0.954,
+          0.943
+        ],
+        "variance_in_mid-late": 0.0002,
+        "late": [
+          0.976,
+          0.969,
+          0.979,
+          0.958,
+          0.977
+        ],
+        "variance_in_late": 0.0001
+      }
+    },
+    {
+      "dim": "s[49] - enemy_2_absolute_y",
+      "with_communication": {
+        "early": [
+          0.425,
+          0.437,
+          0.435,
+          0.424,
+          0.413
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.646,
+          0.688,
+          0.691,
+          0.68,
+          0.675
+        ],
+        "variance_in_early-mid": 0.0003,
+        "mid": [
+          0.727,
+          0.766,
+          0.773,
+          0.766,
+          0.718
+        ],
+        "variance_in_mid": 0.0005,
+        "mid-late": [
+          0.803,
+          0.8,
+          0.812,
+          0.812,
+          0.798
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.906,
+          0.906,
+          0.896,
+          0.894,
+          0.889
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.395,
+          0.378,
+          0.373,
+          0.397,
+          0.432
+        ],
+        "variance_in_early": 0.0004,
+        "early-mid": [
+          0.648,
+          0.625,
+          0.624,
+          0.657,
+          0.608
+        ],
+        "variance_in_early-mid": 0.0003,
+        "mid": [
+          0.695,
+          0.731,
+          0.756,
+          0.754,
+          0.697
+        ],
+        "variance_in_mid": 0.0007,
+        "mid-late": [
+          0.795,
+          0.84,
+          0.903,
+          0.833,
+          0.857
+        ],
+        "variance_in_mid-late": 0.0012,
+        "late": [
+          0.787,
+          0.834,
+          0.873,
+          0.823,
+          0.852
+        ],
+        "variance_in_late": 0.0008
+      }
+    },
+    {
+      "dim": "s[53] - enemy_3_health",
+      "with_communication": {
+        "early": [
+          0.988,
+          0.984,
+          0.988,
+          0.988,
+          0.984
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.991,
+          0.987,
+          0.982,
+          0.964,
+          0.969
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.902,
+          0.88,
+          0.875,
+          0.879,
+          0.915
+        ],
+        "variance_in_mid": 0.0002,
+        "mid-late": [
+          0.906,
+          0.883,
+          0.872,
+          0.845,
+          0.874
+        ],
+        "variance_in_mid-late": 0.0004,
+        "late": [
+          0.923,
+          0.899,
+          0.866,
+          0.878,
+          0.915
+        ],
+        "variance_in_late": 0.0005
+      },
+      "without_communication": {
+        "early": [
+          0.984,
+          0.988,
+          0.983,
+          0.992,
+          0.983
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.899,
+          0.913,
+          0.945,
+          0.918,
+          0.857
+        ],
+        "variance_in_early-mid": 0.0008,
+        "mid": [
+          0.81,
+          0.848,
+          0.874,
+          0.77,
+          0.751
+        ],
+        "variance_in_mid": 0.0021,
+        "mid-late": [
+          0.658,
+          0.809,
+          0.781,
+          0.722,
+          0.709
+        ],
+        "variance_in_mid-late": 0.0029,
+        "late": [
+          0.661,
+          0.764,
+          0.725,
+          0.773,
+          0.656
+        ],
+        "variance_in_late": 0.0025
+      }
+    },
+    {
+      "dim": "s[54] - enemy_3_absolute_x",
+      "with_communication": {
+        "early": [
+          0.672,
+          0.676,
+          0.676,
+          0.675,
+          0.679
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.914,
+          0.914,
+          0.91,
+          0.914,
+          0.908
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.911,
+          0.918,
+          0.93,
+          0.938,
+          0.938
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.986,
+          0.981,
+          0.972,
+          0.977,
+          0.975
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.645,
+          0.649,
+          0.66,
+          0.655,
+          0.669
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.84,
+          0.844,
+          0.871,
+          0.852,
+          0.844
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.881,
+          0.928,
+          0.942,
+          0.92,
+          0.908
+        ],
+        "variance_in_mid": 0.0004,
+        "mid-late": [
+          0.906,
+          0.917,
+          0.967,
+          0.958,
+          0.955
+        ],
+        "variance_in_mid-late": 0.0006,
+        "late": [
+          0.926,
+          0.915,
+          0.933,
+          0.964,
+          0.971
+        ],
+        "variance_in_late": 0.0005
+      }
+    },
+    {
+      "dim": "s[55] - enemy_3_absolute_y",
+      "with_communication": {
+        "early": [
+          0.407,
+          0.408,
+          0.424,
+          0.423,
+          0.421
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.576,
+          0.566,
+          0.566,
+          0.561,
+          0.535
+        ],
+        "variance_in_early-mid": 0.0002,
+        "mid": [
+          0.65,
+          0.666,
+          0.669,
+          0.658,
+          0.663
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.711,
+          0.741,
+          0.714,
+          0.714,
+          0.714
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.846,
+          0.816,
+          0.826,
+          0.819,
+          0.83
+        ],
+        "variance_in_late": 0.0001
+      },
+      "without_communication": {
+        "early": [
+          0.36,
+          0.383,
+          0.405,
+          0.401,
+          0.378
+        ],
+        "variance_in_early": 0.0003,
+        "early-mid": [
+          0.61,
+          0.578,
+          0.578,
+          0.569,
+          0.572
+        ],
+        "variance_in_early-mid": 0.0002,
+        "mid": [
+          0.704,
+          0.704,
+          0.701,
+          0.708,
+          0.689
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.751,
+          0.757,
+          0.813,
+          0.781,
+          0.782
+        ],
+        "variance_in_mid-late": 0.0005,
+        "late": [
+          0.831,
+          0.779,
+          0.907,
+          0.795,
+          0.831
+        ],
+        "variance_in_late": 0.0019
+      }
+    },
+    {
+      "dim": "s[59] - enemy_4_health",
+      "with_communication": {
+        "early": [
+          0.98,
+          0.983,
+          0.987,
+          0.983,
+          0.983
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.972,
+          0.96,
+          0.953,
+          0.955,
+          0.945
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.976,
+          0.981,
+          0.981,
+          0.986,
+          0.982
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.866,
+          0.882,
+          0.943,
+          0.929,
+          0.938
+        ],
+        "variance_in_mid-late": 0.001,
+        "late": [
+          0.846,
+          0.849,
+          0.872,
+          0.879,
+          0.893
+        ],
+        "variance_in_late": 0.0003
+      },
+      "without_communication": {
+        "early": [
+          0.99,
+          0.997,
+          0.986,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.917,
+          0.947,
+          0.831,
+          0.9,
+          0.9
+        ],
+        "variance_in_early-mid": 0.0015,
+        "mid": [
+          0.865,
+          0.782,
+          0.818,
+          0.887,
+          0.71
+        ],
+        "variance_in_mid": 0.004,
+        "mid-late": [
+          0.77,
+          0.785,
+          0.807,
+          0.863,
+          0.653
+        ],
+        "variance_in_mid-late": 0.0048,
+        "late": [
+          0.748,
+          0.73,
+          0.798,
+          0.825,
+          0.703
+        ],
+        "variance_in_late": 0.002
+      }
+    },
+    {
+      "dim": "s[60] - enemy_4_absolute_x",
+      "with_communication": {
+        "early": [
+          0.707,
+          0.718,
+          0.711,
+          0.711,
+          0.722
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.965,
+          0.98,
+          0.98,
+          0.976,
+          0.974
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.969,
+          0.964,
+          0.937,
+          0.979,
+          0.984
+        ],
+        "variance_in_mid": 0.0003,
+        "mid-late": [
+          0.971,
+          0.95,
+          0.965,
+          0.956,
+          0.96
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.989,
+          0.984,
+          0.988,
+          0.98,
+          0.973
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.729,
+          0.754,
+          0.731,
+          0.745,
+          0.727
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.913,
+          0.875,
+          0.937,
+          0.887,
+          0.931
+        ],
+        "variance_in_early-mid": 0.0006,
+        "mid": [
+          0.915,
+          0.917,
+          0.937,
+          0.896,
+          0.886
+        ],
+        "variance_in_mid": 0.0003,
+        "mid-late": [
+          0.878,
+          0.884,
+          0.891,
+          0.924,
+          0.906
+        ],
+        "variance_in_mid-late": 0.0003,
+        "late": [
+          0.901,
+          0.865,
+          0.905,
+          0.92,
+          0.874
+        ],
+        "variance_in_late": 0.0004
+      }
+    },
+    {
+      "dim": "s[61] - enemy_4_absolute_y",
+      "with_communication": {
+        "early": [
+          0.591,
+          0.61,
+          0.599,
+          0.599,
+          0.596
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.775,
+          0.776,
+          0.776,
+          0.779,
+          0.779
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.752,
+          0.763,
+          0.778,
+          0.783,
+          0.773
+        ],
+        "variance_in_mid": 0.0001,
+        "mid-late": [
+          0.745,
+          0.766,
+          0.758,
+          0.749,
+          0.776
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.876,
+          0.861,
+          0.844,
+          0.844,
+          0.886
+        ],
+        "variance_in_late": 0.0003
+      },
+      "without_communication": {
+        "early": [
+          0.548,
+          0.55,
+          0.581,
+          0.599,
+          0.646
+        ],
+        "variance_in_early": 0.0013,
+        "early-mid": [
+          0.666,
+          0.695,
+          0.71,
+          0.737,
+          0.74
+        ],
+        "variance_in_early-mid": 0.0008,
+        "mid": [
+          0.669,
+          0.763,
+          0.694,
+          0.726,
+          0.72
+        ],
+        "variance_in_mid": 0.001,
+        "mid-late": [
+          0.715,
+          0.778,
+          0.754,
+          0.791,
+          0.797
+        ],
+        "variance_in_mid-late": 0.0009,
+        "late": [
+          0.762,
+          0.818,
+          0.767,
+          0.81,
+          0.842
+        ],
+        "variance_in_late": 0.0009
+      }
+    }
+  ]
+}

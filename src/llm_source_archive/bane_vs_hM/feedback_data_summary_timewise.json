@@ -1,0 +1,808 @@
+{
+  "dimensions": [
+    {
+      "dim": "s[0] - Agent 0 health",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          0.548,
+          0.646
+        ],
+        "variance_in_early": 0.0377,
+        "early-mid": [
+          1.0,
+          0.062,
+          0.062
+        ],
+        "variance_in_early-mid": 0.1955,
+        "mid": [
+          1.0,
+          0.235,
+          0.0
+        ],
+        "variance_in_mid": 0.1823,
+        "mid-late": [
+          0.984,
+          0.43,
+          0.008
+        ],
+        "variance_in_mid-late": 0.1597,
+        "late": [
+          0.964,
+          0.503,
+          0.01
+        ],
+        "variance_in_late": 0.1517
+      }
+    },
+    {
+      "dim": "s[2] - Agent 0 absolute X coordination",
+      "with_communication": {
+        "early": [
+          0.711,
+          0.687,
+          0.682
+        ],
+        "variance_in_early": 0.0002,
+        "early-mid": [
+          0.787,
+          0.804,
+          0.82
+        ],
+        "variance_in_early-mid": 0.0002,
+        "mid": [
+          0.888,
+          0.919,
+          0.953
+        ],
+        "variance_in_mid": 0.0007,
+        "mid-late": [
+          0.932,
+          0.896,
+          0.943
+        ],
+        "variance_in_mid-late": 0.0004,
+        "late": [
+          0.963,
+          0.938,
+          0.957
+        ],
+        "variance_in_late": 0.0001
+      },
+      "without_communication": {
+        "early": [
+          0.638,
+          0.329,
+          0.34
+        ],
+        "variance_in_early": 0.0205,
+        "early-mid": [
+          0.844,
+          0.451,
+          0.355
+        ],
+        "variance_in_early-mid": 0.0448,
+        "mid": [
+          0.914,
+          0.59,
+          0.363
+        ],
+        "variance_in_mid": 0.0511,
+        "mid-late": [
+          0.938,
+          0.669,
+          0.572
+        ],
+        "variance_in_mid-late": 0.024,
+        "late": [
+          0.969,
+          0.714,
+          0.637
+        ],
+        "variance_in_late": 0.0201
+      }
+    },
+    {
+      "dim": "s[3] - Agent 0 absolute Y coordination",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          0.728,
+          0.803
+        ],
+        "variance_in_early": 0.0132,
+        "early-mid": [
+          1.0,
+          0.199,
+          0.234
+        ],
+        "variance_in_early-mid": 0.1366,
+        "mid": [
+          1.0,
+          0.38,
+          0.064
+        ],
+        "variance_in_mid": 0.1512,
+        "mid-late": [
+          1.0,
+          0.526,
+          0.062
+        ],
+        "variance_in_mid-late": 0.1466,
+        "late": [
+          1.0,
+          0.601,
+          0.1
+        ],
+        "variance_in_late": 0.1356
+      }
+    },
+    {
+      "dim": "s[6] - Agent 1 health",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.558,
+          1.0,
+          0.555
+        ],
+        "variance_in_early": 0.0437,
+        "early-mid": [
+          0.087,
+          0.929,
+          0.047
+        ],
+        "variance_in_early-mid": 0.1654,
+        "mid": [
+          0.068,
+          0.916,
+          0.0
+        ],
+        "variance_in_mid": 0.1736,
+        "mid-late": [
+          0.057,
+          0.935,
+          0.0
+        ],
+        "variance_in_mid-late": 0.1832,
+        "late": [
+          0.006,
+          0.932,
+          0.0
+        ],
+        "variance_in_late": 0.1918
+      }
+    },
+    {
+      "dim": "s[8] - Agent 1 absolute X coordinate",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[9] - Agent 1 absolute Y coordinate",
+      "with_communication": {
+        "early": [
+          0.36,
+          0.344,
+          0.343
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.424,
+          0.416,
+          0.424
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.582,
+          0.585,
+          0.59
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.631,
+          0.642,
+          0.598
+        ],
+        "variance_in_mid-late": 0.0003,
+        "late": [
+          0.693,
+          0.715,
+          0.699
+        ],
+        "variance_in_late": 0.0001
+      },
+      "without_communication": {
+        "early": [
+          0.179,
+          0.305,
+          0.163
+        ],
+        "variance_in_early": 0.004,
+        "early-mid": [
+          0.256,
+          0.344,
+          0.276
+        ],
+        "variance_in_early-mid": 0.0014,
+        "mid": [
+          0.321,
+          0.402,
+          0.34
+        ],
+        "variance_in_mid": 0.0012,
+        "mid-late": [
+          0.46,
+          0.479,
+          0.357
+        ],
+        "variance_in_mid-late": 0.0029,
+        "late": [
+          0.24,
+          0.677,
+          0.203
+        ],
+        "variance_in_late": 0.0463
+      }
+    },
+    {
+      "dim": "s[12] - Agent 1 health",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.327,
+          0.495,
+          0.814
+        ],
+        "variance_in_early": 0.0408,
+        "early-mid": [
+          0.024,
+          0.047,
+          0.919
+        ],
+        "variance_in_early-mid": 0.1735,
+        "mid": [
+          0.042,
+          0.036,
+          0.943
+        ],
+        "variance_in_mid": 0.1816,
+        "mid-late": [
+          0.047,
+          0.329,
+          1.0
+        ],
+        "variance_in_mid-late": 0.1598,
+        "late": [
+          0.068,
+          0.474,
+          1.0
+        ],
+        "variance_in_late": 0.1456
+      }
+    },
+    {
+      "dim": "s[14] - Agent 2 absolute X coordinate",
+      "with_communication": {
+        "early": [
+          0.627,
+          0.635,
+          0.648
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.879,
+          0.904,
+          0.896
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.964,
+          0.964,
+          0.964
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.308,
+          0.306,
+          0.616
+        ],
+        "variance_in_early": 0.0212,
+        "early-mid": [
+          0.488,
+          0.361,
+          0.823
+        ],
+        "variance_in_early-mid": 0.038,
+        "mid": [
+          0.702,
+          0.573,
+          0.974
+        ],
+        "variance_in_mid": 0.0279,
+        "mid-late": [
+          0.831,
+          0.768,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0096,
+        "late": [
+          0.904,
+          0.882,
+          1.0
+        ],
+        "variance_in_late": 0.0026
+      }
+    },
+    {
+      "dim": "s[15] - Agent 2 absolute Y coordinate",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.611,
+          0.681,
+          0.977
+        ],
+        "variance_in_early": 0.0252,
+        "early-mid": [
+          0.086,
+          0.148,
+          1.0
+        ],
+        "variance_in_early-mid": 0.1739,
+        "mid": [
+          0.14,
+          0.323,
+          1.0
+        ],
+        "variance_in_mid": 0.1368,
+        "mid-late": [
+          0.269,
+          0.479,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0944,
+        "late": [
+          0.432,
+          0.559,
+          1.0
+        ],
+        "variance_in_late": 0.0592
+      }
+    },
+    {
+      "dim": "s[18] - Enemy(Hydralisk) health",
+      "with_communication": {
+        "early": [
+          0.923,
+          0.945,
+          0.918
+        ],
+        "variance_in_early": 0.0001,
+        "early-mid": [
+          0.857,
+          0.846,
+          0.788
+        ],
+        "variance_in_early-mid": 0.0009,
+        "mid": [
+          0.748,
+          0.748,
+          0.685
+        ],
+        "variance_in_mid": 0.0009,
+        "mid-late": [
+          0.805,
+          0.792,
+          0.739
+        ],
+        "variance_in_mid-late": 0.0008,
+        "late": [
+          0.845,
+          0.802,
+          0.786
+        ],
+        "variance_in_late": 0.0006
+      },
+      "without_communication": {
+        "early": [
+          0.698,
+          0.822,
+          0.824
+        ],
+        "variance_in_early": 0.0035,
+        "early-mid": [
+          0.299,
+          0.362,
+          0.504
+        ],
+        "variance_in_early-mid": 0.0074,
+        "mid": [
+          0.277,
+          0.193,
+          0.375
+        ],
+        "variance_in_mid": 0.0055,
+        "mid-late": [
+          0.468,
+          0.338,
+          0.475
+        ],
+        "variance_in_mid-late": 0.004,
+        "late": [
+          0.617,
+          0.395,
+          0.602
+        ],
+        "variance_in_late": 0.0103
+      }
+    },
+    {
+      "dim": "s[19] - Enemy(Hydralisk) absolute X coordinate",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[20] - Enemy(Hydralisk) absolute Y coordinate",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          0.969,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0002,
+        "late": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    }
+  ]
+}

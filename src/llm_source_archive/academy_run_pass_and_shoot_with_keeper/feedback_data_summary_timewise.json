@@ -1,0 +1,1258 @@
+{
+  "dimensions": [
+    {
+      "dim": "s[0] - Agent Attacker1 absolute position X",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.997,
+          0.997
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.987,
+          0.989
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.923,
+          0.952
+        ],
+        "variance_in_mid-late": 0.0002,
+        "late": [
+          0.821,
+          0.896
+        ],
+        "variance_in_late": 0.0014
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.978,
+          0.972
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.934,
+          0.947
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.877,
+          0.883
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[1] - Agent Attacker1 absolute position Y",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.982,
+          0.982
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.954,
+          0.95
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.878,
+          0.88
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          0.99
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.965,
+          0.955
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.958,
+          0.938
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.923,
+          0.923
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[2] - Agent Attackerk2 absolute position X",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.968,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0003,
+        "late": [
+          0.941,
+          0.966
+        ],
+        "variance_in_late": 0.0002
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.964,
+          0.979
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.894,
+          0.93
+        ],
+        "variance_in_late": 0.0003
+      }
+    },
+    {
+      "dim": "s[3] - Agent Attacker2 absolute position Y",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.975,
+          0.973
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.961,
+          0.968
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.93,
+          0.931
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.958,
+          0.961
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.954,
+          0.949
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.902,
+          0.892
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[4] - Agent Attacker1 direction X",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[5] - Agent Attacker1 direction Y",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[6] - Agent Attacker2 direction X",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[7] - Agent Attacker2 direction Y",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[8] - Enemy goalkeeper absolute position X",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.995,
+          0.992
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.956,
+          0.958
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.809,
+          0.835
+        ],
+        "variance_in_late": 0.0002
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.98,
+          0.978
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.901,
+          0.907
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[9] - Enemy goalkeeper absolute position Y",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.983,
+          0.983
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.952,
+          0.944
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.878,
+          0.878
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.989,
+          0.989
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.967,
+          0.967
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.969,
+          0.969
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[10] - Enemy center-back absolute position X",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.981,
+          0.983
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.954,
+          0.968
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.903,
+          0.928
+        ],
+        "variance_in_late": 0.0002
+      },
+      "without_communication": {
+        "early": [
+          0.998,
+          0.999
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.996,
+          0.992
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.972,
+          0.977
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.991,
+          0.988
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.961,
+          0.935
+        ],
+        "variance_in_late": 0.0002
+      }
+    },
+    {
+      "dim": "s[11] - Enemy center-back absolute position Y",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.997,
+          0.998
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.983,
+          0.99
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.962,
+          0.961
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.931,
+          0.944
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.997,
+          0.997
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.967,
+          0.974
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.976,
+          0.956
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.974,
+          0.97
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[12] - Enemy goalkeeper direction X",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[13] - Enemy goalkeeper direction Y",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[14] - Enemy center-back direction X",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[15] - Enemy center-back direction Y",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[16] - Ball absolute position X",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.996,
+          0.996
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.947,
+          0.961
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.822,
+          0.845
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.575,
+          0.606
+        ],
+        "variance_in_late": 0.0002
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.986,
+          0.985
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.927,
+          0.931
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.86,
+          0.864
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.599,
+          0.58
+        ],
+        "variance_in_late": 0.0001
+      }
+    },
+    {
+      "dim": "s[17] - Ball absolute position Y",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.973,
+          0.968
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.895,
+          0.88
+        ],
+        "variance_in_mid-late": 0.0001,
+        "late": [
+          0.893,
+          0.886
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.966,
+          0.973
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.979,
+          0.99
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.929,
+          0.934
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[18] - Ball absolute position Z",
+      "with_communication": {
+        "early": [
+          0.972,
+          0.971
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.854,
+          0.871
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.711,
+          0.736
+        ],
+        "variance_in_mid": 0.0002,
+        "mid-late": [
+          0.653,
+          0.656
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.72,
+          0.73
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          0.97,
+          0.972
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.874,
+          0.869
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.757,
+          0.751
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.672,
+          0.665
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.742,
+          0.741
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[19] - Ball direction X",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.993,
+          0.99
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.998,
+          0.998
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[20] - Ball direction Y",
+      "with_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      },
+      "without_communication": {
+        "early": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          1.0,
+          1.0
+        ],
+        "variance_in_late": 0.0
+      }
+    },
+    {
+      "dim": "s[21] - Ball direction Z",
+      "with_communication": {
+        "early": [
+          1.0,
+          0.999
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.967,
+          0.99
+        ],
+        "variance_in_early-mid": 0.0001,
+        "mid": [
+          0.983,
+          0.988
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.986,
+          0.982
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.971,
+          0.956
+        ],
+        "variance_in_late": 0.0001
+      },
+      "without_communication": {
+        "early": [
+          0.997,
+          0.997
+        ],
+        "variance_in_early": 0.0,
+        "early-mid": [
+          0.981,
+          0.978
+        ],
+        "variance_in_early-mid": 0.0,
+        "mid": [
+          0.965,
+          0.958
+        ],
+        "variance_in_mid": 0.0,
+        "mid-late": [
+          0.912,
+          0.922
+        ],
+        "variance_in_mid-late": 0.0,
+        "late": [
+          0.936,
+          0.929
+        ],
+        "variance_in_late": 0.0
+      }
+    }
+  ]
+}

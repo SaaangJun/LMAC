@@ -1,0 +1,332 @@
+[
+  {
+    "dimension": "s[..., 0] (Agent Attacker1 absolute position X)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.88
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 1] (Agent Attacker1 absolute position Y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.93
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 2] (Agent Attackerk2 absolute position X)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.9
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 3] (Agent Attacker2 absolute position Y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 4] (Agent Attacker1 direction X)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 5] (Agent Attacker1 direction Y)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 6] (Agent Attacker2 direction X)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 7] (Agent Attacker2 direction Y)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 8] (Enemy goalkeeper absolute position X)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 9] (Enemy goalkeeper absolute position Y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 10] (Enemy center-back absolute position X)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 11] (Enemy center-back absolute position Y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 12] (Enemy goalkeeper direction X)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 13] (Enemy goalkeeper direction Y)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 14] (Enemy center-back direction X)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 15] (Enemy center-back direction Y)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 16] (Ball absolute position X)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.54,
+        0.56
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.84,
+        0.85
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 17] (Ball absolute position Y)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 18] (Ball absolute position Z)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.82,
+        0.83
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.82,
+        0.82
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 19] (Ball direction X)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 20] (Ball direction Y)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 21] (Ball direction Z)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  }
+]

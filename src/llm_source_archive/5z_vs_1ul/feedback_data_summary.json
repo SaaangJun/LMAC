@@ -1,0 +1,590 @@
+[
+  {
+    "dimension": "s[..., 0] (Agent 0 health)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.95,
+        0.85,
+        0.87,
+        0.86
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 1] (Agent 0 weapon_cooldown)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94,
+        0.94,
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93,
+        0.92,
+        0.92,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 2] (Agent 0 absolute X coordination)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.85,
+        0.83,
+        0.82,
+        0.85,
+        0.85
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.82,
+        0.78,
+        0.68,
+        0.71,
+        0.69
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 3] (Agent 0 absolute Y coordination)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.8,
+        0.8,
+        0.79,
+        0.78,
+        0.79
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.75,
+        0.75,
+        0.77,
+        0.77,
+        0.77
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 4] (Agent 0 shield)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        0.98,
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.98,
+        0.91,
+        0.91,
+        0.9
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 5] (Agent 1 health)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.99,
+        0.73,
+        0.78,
+        0.73
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 6] (Agent 1 weapon_cooldown)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95,
+        0.95,
+        0.94,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94,
+        0.93,
+        0.93,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 7] (Agent 1 absolute X coordination)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.88,
+        0.87,
+        0.85,
+        0.87,
+        0.87
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.82,
+        0.83,
+        0.68,
+        0.66,
+        0.65
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 8] (Agent 1 absolute Y coordination)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.86,
+        0.85,
+        0.84,
+        0.84,
+        0.85
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.84,
+        0.83,
+        0.85,
+        0.84,
+        0.85
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 9] (Agent 1 shield)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99,
+        0.98,
+        0.97,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        1.0,
+        0.86,
+        0.85,
+        0.84
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 10] (Agent 2 health)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.94,
+        0.99,
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 11] (Agent 2 weapon_cooldown)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95,
+        0.95,
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93,
+        0.94,
+        0.93,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 12] (Agent 2 absolute X coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.9,
+        0.91,
+        0.91,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93,
+        0.93,
+        0.92,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 13] (Agent 2 absolute Y coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96,
+        0.95,
+        0.95,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98,
+        0.98,
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 14] (Agent 2 shield)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99,
+        1.0,
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98,
+        0.99,
+        0.98,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 15] (Agent 3 health)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        0.99,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.85,
+        0.87,
+        1.0,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 16] (Agent 3 Weapon_cooldown)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94,
+        0.94,
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92,
+        0.93,
+        0.94,
+        0.93
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 17] (Agent 3 absolute X coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.78,
+        0.77,
+        0.79,
+        0.89,
+        0.86
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.7,
+        0.69,
+        0.72,
+        0.83,
+        0.81
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 18] (Agent 3 absolute Y coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.89,
+        0.89,
+        0.89,
+        0.95,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.8,
+        0.78,
+        0.8,
+        0.94,
+        0.89
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 19] (Agent 3 shield)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97,
+        0.93,
+        0.98,
+        0.93
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.89,
+        0.89,
+        0.97,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 20] (Agent 4 health)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99,
+        0.99,
+        1.0,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.84,
+        0.86,
+        0.97,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 21] (Agent 4 Weapon_cooldown)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95,
+        0.95,
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93,
+        0.93,
+        0.93,
+        0.93
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 22] (Agent 4 absolute X coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.83,
+        0.85,
+        0.82,
+        0.91,
+        0.91
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.75,
+        0.74,
+        0.77,
+        0.89,
+        0.89
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 23] (Agent 4 absolute Y coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.88,
+        0.87,
+        0.88,
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.79,
+        0.79,
+        0.8,
+        0.9,
+        0.91
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 24] (Agent 5 shield)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.97,
+        0.98,
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.89,
+        0.92,
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 25] (Enemy(Ultralisk) health)",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        0.99,
+        0.99,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 26] (Enemy(Ultralisk) absolute X coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.81,
+        0.82,
+        0.84,
+        0.84,
+        0.84
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.86,
+        0.82,
+        0.82,
+        0.83,
+        0.83
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 27] (Enemy(Ultralisk) absolute Y coordinate)",
+    "with_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.91,
+        0.92,
+        0.92,
+        0.91
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96,
+        0.96,
+        0.97,
+        0.97
+      ]
+    }
+  }
+]

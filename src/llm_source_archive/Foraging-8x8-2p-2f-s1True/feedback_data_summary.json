@@ -1,0 +1,2882 @@
+[
+  {
+    "dimension": "s[..., 11] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 12] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 13] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.95
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 14] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.93
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 15] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.9
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.89,
+        0.9
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 16] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 17] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.93
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 18] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 21] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 22] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 23] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 24] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 25] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 26] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 27] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 28] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 31] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 32] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 33] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 34] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 35] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 36] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 37] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 38] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 41] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 42] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 43] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 44] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 45] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 46] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 47] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 48] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 51] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 52] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 53] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 54] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 55] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 56] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 57] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 58] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 61] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 62] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 63] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 64] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 65] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 66] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 67] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 68] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 71] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 72] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 73] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 74] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 75] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 76] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 77] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 78] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 81] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 82] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 83] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 84] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 85] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 86] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 87] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 88] (Agent layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 111] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 112] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 113] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 114] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 115] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 116] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 117] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 118] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 121] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 122] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.9
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.91
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 123] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 124] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.81,
+        0.79
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.87
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 125] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.89,
+        0.87
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.89,
+        0.84
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 126] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 127] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.91
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 128] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 131] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 132] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 133] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 134] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 135] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.91
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.89,
+        0.89
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 136] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.85,
+        0.87
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 137] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 138] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 141] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 142] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 143] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 144] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 145] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 146] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 147] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.87
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 148] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 151] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 152] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 153] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.88,
+        0.88
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.88,
+        0.88
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 154] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 155] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.88,
+        0.88
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.9
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 156] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 157] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 158] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 161] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 162] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.91
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 163] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 164] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 165] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 166] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.88,
+        0.86
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.91
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 167] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 168] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 171] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 172] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.84,
+        0.9
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.87
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 173] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.84,
+        0.84
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.85,
+        0.82
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 174] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.87
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.88,
+        0.88
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 175] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.79,
+        0.79
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.84,
+        0.82
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 176] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.89
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.9
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 177] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.88,
+        0.9
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.82,
+        0.89
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 178] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 181] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 182] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 183] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 184] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 185] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 186] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 187] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 188] (Food layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 211] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 212] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 213] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.95
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 214] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 215] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.9
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.89,
+        0.9
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 216] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 217] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.93
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 218] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 221] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 222] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.87
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.87
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 223] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 224] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.87
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.85,
+        0.86
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 225] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.87
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.87
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 226] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 227] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.93
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.9
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 228] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 231] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 232] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 233] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 234] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.93
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 235] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.87
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.86
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 236] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 237] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 238] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 241] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 242] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 243] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.88,
+        0.88
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.88,
+        0.88
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 244] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.94,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 245] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 246] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 247] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 248] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 251] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 252] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.92,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 253] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.85,
+        0.85
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.85,
+        0.85
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 254] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 255] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.89,
+        0.89
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.89,
+        0.89
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 256] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.9
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.9
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 257] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 258] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 261] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 262] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.92
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 263] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 264] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.91
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.91,
+        0.91
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 265] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 266] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.88,
+        0.88
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.88,
+        0.88
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 267] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 268] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 271] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 272] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.9,
+        0.94
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.91
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 273] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.84,
+        0.81
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.86,
+        0.86
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 274] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.86,
+        0.86
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.86,
+        0.86
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 275] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.82,
+        0.82
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.87
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 276] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.86
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.87,
+        0.87
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 277] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.93,
+        0.91
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.89,
+        0.92
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 278] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 281] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 282] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.98,
+        0.98
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 283] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.95
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.95,
+        0.94
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 284] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.96
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 285] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.96,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 286] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.97,
+        0.97
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 287] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        0.99,
+        0.99
+      ]
+    }
+  },
+  {
+    "dimension": "s[..., 288] (Access layer (field))",
+    "with_communication": {
+      "agent_success_rates": [
+        1.0,
+        1.0
+      ]
+    },
+    "without_communication": {
+      "agent_success_rates": [
+        1.0,
+        0.99
+      ]
+    }
+  }
+]
