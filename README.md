@@ -1,5 +1,7 @@
 # LMAC : LLM-Guided Communication for Cooperative Multi-Agent Reinforcement Learning
 
+🌐 **Project page:** https://saaangjun.github.io/LMAC/
+
 This repository extends the original [EPyMARL](https://github.com/uoe-agents/epymarl) framework with an
 LLM-guided communication pipeline. All algorithmic components (controllers, learners, runners) and the
 general project layout still follow EPyMARL conventions.
