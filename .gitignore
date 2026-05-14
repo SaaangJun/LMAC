@@ -15,6 +15,11 @@ episode_sample.pkl
 # Created by https://www.gitignore.io/api/linux,python,windows,pycharm+all,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=linux,python,windows,pycharm+all,visualstudiocode
 
+### LMAC project-specific ###
+.DS_Store
+wandb_key.txt
+~$*
+
 ### Linux ###
 *~
 
