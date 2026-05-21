@@ -19,6 +19,7 @@ episode_sample.pkl
 .DS_Store
 wandb_key.txt
 ~$*
+docs/README.md
 
 ### Linux ###
 *~
